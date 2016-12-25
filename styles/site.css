@@ -1,3 +1,43 @@
 body {
-  font-family: Courier New;
+  margin: 0;
+  background: #fff;
+  font-family: Source Sans Pro, Tahoma, Arial, sans;
+  font-size: 1.25em;
+  color: #222;
+}
+.content {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 1em;
+}
+.site-title {
+  margin: 1em 0 1ex;
+  text-align: center;
+  font-size: 2em;
+}
+.site-summary {
+  margin: 1em 0 50px;
+  text-align: center;
+}
+.product {
+  min-height: 40vh;
+  padding: 2em 0;
+}
+.product:nth-child(even) {
+  background: #eee;
+}
+.product-title,
+.product-summary,
+.product-links {
+  text-align: center;
+}
+.product-title {
+  font-size: 2em;
+  font-weight: 300;
+}
+.product-links {
+  margin-top: 2em;
+}
+.product-link {
+  margin: 0 1em;
 }
