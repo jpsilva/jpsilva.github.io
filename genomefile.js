@@ -27,7 +27,7 @@ genome.tasks = {
     'src/images/*.{jpeg,jpg,gif,png,svg}'.onChange('copyImages');
     'src/index.slm'.onChange('slmToHtml');
     'src/styles/**/*.styl'.onChange('stylusToCss');
-    '**/*.{css,html}'.onChange(server.reload);
+    '**/*.{css,html,jpeg,jpg,gif,png,svg}'.onChange(server.reload);
   }
 };
 

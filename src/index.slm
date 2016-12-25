@@ -10,8 +10,9 @@ html
     .content
       h1.site-title {Something} Labs
       p.site-summary A place for my side projects.
-    section.product
+    section.product.product--drawstring
       .content
+        img.product-icon src="/images/drawstring-icon.png" alt="Drawstring icon" width="64"
         h2.product-title Drawstring
         p.product-summary Surrealist communal comic strips.
         p.product-description
@@ -19,30 +20,33 @@ html
             Drawstring lets you create comic strips with your friends. Each person
             draws one of the four panels, but can only see the panel that comes
             right before them. Nobody sees the full picture until it's done.
-    section.product
+    section.product.product--superscript
       .content
+        img.product-icon src="/images/superscript-icon.png" alt="Superscript icon" width="64"
         h2.product-title Superscript
         p.product-summary Distraction-free comic script editor.
         p.product-description
           | Don't worry about numbering pages and panels. Forget about switching
             between headings, action, characters and dialog. Just write and let
             Superscript handle the rest.
-    section.product
+    section.product.product--summer
       .content
+        img.product-icon src="/images/summer-icon.png" alt="Summer icon" width="64"
         h2.product-title Summer
         p.product-summary Simple scorekeeper app.
         p.product-description
           | Forget pen and paper? Too drunk to add numbers? Open up Summer to
             keep score of your card and board games.
-    section.product
+    section.product.product--seconds
       .content
-        h2.product-title Seconds
+        img.product-icon src="/images/seconds-logo.png" alt="Seconds logo" width="200"
         p.product-summary Multiple cooking timers on your phone.
         p.product-description
           | Dinner on time. Easily create multiple timers to make every piece of your
             meal ready right on time.
-    section.product
+    section.product.product--genome
       .content
+        img.product-icon src="/images/genome-icon.png" alt="Genome logo" width="64"
         h2.product-title Genome
         p.product-summary Yet another node builder.
         p.product-description
