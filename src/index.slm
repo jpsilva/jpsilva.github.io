@@ -19,9 +19,10 @@ html
           Drawstring lets you create comic strips with your friends. Each person
           draws one of the four panels, but can only see the panel that comes
           right before them. Nobody sees the full picture until it's done.
-    section.product.product--superscript
+        img.drawstring-screenshot src="/images/drawstring-screenshot.jpg" alt="Drawstring screenshot"
+    section.product.product--superscribe
       .content
-        img.product-icon src="/images/superscript-hash-icon.png" alt="Superscript icon" width="64"
+        img.product-icon src="/images/superscribe-icon.png" alt="Superscribe icon" width="64"
         h2.product-title Superscribe
         p.product-summary Distraction-free comic script editor.
         p Don't worry about numbering pages and panels. Forget about switching
@@ -30,7 +31,7 @@ html
         p The superscript syntax is inspired by markdown. One hashtag creates a page heading.
           Two hashtags create a panel heading. Superscribe inserts the page and
           panel numbers automatically, as you type.
-        img.product-screenshot src="/images/superscript-screenshot.jpg" alt="Superscript screenshot"
+        img.superscribe-screenshot src="/images/superscribe-screenshot.jpg" alt="Superscript screenshot"
     section.product.product--summer
       .content
         img.product-icon src="/images/summer-icon.png" alt="Summer icon" width="64"
@@ -41,7 +42,7 @@ html
           phone to keep score of your card and board games.
     section.product.product--seconds
       .content
-        img.product-icon src="/images/seconds-logo.png" alt="Seconds logo" width="200"
+        img.product-icon src="/images/seconds-logo.png" alt="Seconds logo" width="150"
         p.product-summary Multiple cooking timers on your phone.
         p Easily create multiple timers on your iPhone or Android to make
           every piece of your meal ready right on time.
@@ -51,7 +52,8 @@ html
         h2.product-title Genome
         p.product-summary Yet another node builder.
         p Simple library for compiling your front-end files. No propriety
-          syntax to learn. Just use plain Javascript.
+          syntax to learn. No plugins required to get your favorite precompilers
+          to work. Just write plain Javascript.
         p.product-links
           a.product-link href="https://www.npmjs.com/package/genome"
             img src="/images/npm.png" alt="View at npm" width="100"

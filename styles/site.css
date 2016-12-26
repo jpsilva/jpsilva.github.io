@@ -21,10 +21,14 @@ body {
   text-align: center;
 }
 .product {
+  position: relative;
   padding: 50px 0;
+  box-shadow: 0 0 100px rgba(0,0,0,0.2);
 }
 .product--drawstring {
+  padding-bottom: 0;
   background: #ffeac5;
+  box-shadow: none;
 }
 .product--genome {
   background: #fff;
@@ -36,7 +40,7 @@ body {
 .product--summer {
   background: #b5e9fb;
 }
-.product--superscript {
+.product--superscribe {
   padding-bottom: 0;
   background: #faf9f7;
 }
@@ -64,7 +68,13 @@ body {
 .product-link {
   margin: 0 1em;
 }
-.product-screenshot {
+.drawstring-screenshot {
+  display: block;
+  width: 410px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+.superscribe-screenshot {
   display: block;
   width: calc(100% + 150px);
   max-width: 1050px;
