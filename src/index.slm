@@ -21,15 +21,16 @@ html
           right before them. Nobody sees the full picture until it's done.
     section.product.product--superscript
       .content
-        img.product-icon src="/images/superscript-icon.png" alt="Superscript icon" width="64"
-        h2.product-title Superscript
+        img.product-icon src="/images/superscript-hash-icon.png" alt="Superscript icon" width="64"
+        h2.product-title Superscribe
         p.product-summary Distraction-free comic script editor.
         p Don't worry about numbering pages and panels. Forget about switching
           between headings, action, characters and dialog. Just write and let
-          Superscript handle the rest.
-        p The syntax is inspired by markdown. One hastag creates a page heading.
-          Two hashtags create a panel heading. Superscript inserts the page and
+          Superscribe handle the rest.
+        p The superscript syntax is inspired by markdown. One hashtag creates a page heading.
+          Two hashtags create a panel heading. Superscribe inserts the page and
           panel numbers automatically, as you type.
+        img.product-screenshot src="/images/superscript-screenshot.jpg" alt="Superscript screenshot"
     section.product.product--summer
       .content
         img.product-icon src="/images/summer-icon.png" alt="Summer icon" width="64"

@@ -3,6 +3,7 @@ body {
   background: #fff;
   font-family: Source Sans Pro, Tahoma, Arial, sans;
   font-size: 1.375em;
+  font-weight: 300;
   color: #222;
 }
 .content {
@@ -36,8 +37,8 @@ body {
   background: #b5e9fb;
 }
 .product--superscript {
-  background: #582d3a;
-  color: #fff;
+  padding-bottom: 0;
+  background: #faf9f7;
 }
 .product-icon {
   display: block;
@@ -62,4 +63,10 @@ body {
 }
 .product-link {
   margin: 0 1em;
+}
+.product-screenshot {
+  display: block;
+  width: calc(100% + 150px);
+  max-width: 1050px;
+  margin: 0 -75px;
 }
