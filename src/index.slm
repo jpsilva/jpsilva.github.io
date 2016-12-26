@@ -14,44 +14,43 @@ html
       .content
         img.product-icon src="/images/drawstring-icon.png" alt="Drawstring icon" width="64"
         h2.product-title Drawstring
-        p.product-summary Surrealist communal comic strips.
-        p.product-description
-          | Inspired by the 100 year old surrealist game, exquisite corpse,
-            Drawstring lets you create comic strips with your friends. Each person
-            draws one of the four panels, but can only see the panel that comes
-            right before them. Nobody sees the full picture until it's done.
+        p.product-summary Create surrealist comic strips with your friends and strangers.
+        p Inspired by the 100 year old surrealist game, exquisite corpse,
+          Drawstring lets you create comic strips with your friends. Each person
+          draws one of the four panels, but can only see the panel that comes
+          right before them. Nobody sees the full picture until it's done.
     section.product.product--superscript
       .content
         img.product-icon src="/images/superscript-icon.png" alt="Superscript icon" width="64"
         h2.product-title Superscript
         p.product-summary Distraction-free comic script editor.
-        p.product-description
-          | Don't worry about numbering pages and panels. Forget about switching
-            between headings, action, characters and dialog. Just write and let
-            Superscript handle the rest.
+        p Don't worry about numbering pages and panels. Forget about switching
+          between headings, action, characters and dialog. Just write and let
+          Superscript handle the rest.
+        p The syntax is inspired by markdown. One hastag creates a page heading.
+          Two hashtags create a panel heading. Superscript inserts the page and
+          panel numbers automatically, as you type.
     section.product.product--summer
       .content
         img.product-icon src="/images/summer-icon.png" alt="Summer icon" width="64"
         h2.product-title Summer
         p.product-summary Simple scorekeeper app.
-        p.product-description
-          | Forget pen and paper? Too drunk to add numbers? Open up Summer to
-            keep score of your card and board games.
+        p Starting a game but you don't have pen and paper? Maybe you're too
+          drunk to add numbers. Download Summer for your iPhone or Android
+          phone to keep score of your card and board games.
     section.product.product--seconds
       .content
         img.product-icon src="/images/seconds-logo.png" alt="Seconds logo" width="200"
         p.product-summary Multiple cooking timers on your phone.
-        p.product-description
-          | Dinner on time. Easily create multiple timers to make every piece of your
-            meal ready right on time.
+        p Easily create multiple timers on your iPhone or Android to make
+          every piece of your meal ready right on time.
     section.product.product--genome
       .content
         img.product-icon src="/images/genome-icon.png" alt="Genome logo" width="64"
         h2.product-title Genome
         p.product-summary Yet another node builder.
-        p.product-description
-          | Simple library for compiling your front-end files. No propriety
-            syntax to learn. Just use plain Javascript.
+        p Simple library for compiling your front-end files. No propriety
+          syntax to learn. Just use plain Javascript.
         p.product-links
           a.product-link href="https://www.npmjs.com/package/genome"
             img src="/images/npm.png" alt="View at npm" width="100"
