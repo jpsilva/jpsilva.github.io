@@ -6,6 +6,13 @@ body {
   font-weight: 300;
   color: #222;
 }
+a {
+  font-weight: bold;
+  color: inherit;
+}
+a:hover {
+  color: #2957a3;
+}
 .content {
   max-width: 900px;
   margin: 0 auto;
@@ -63,7 +70,7 @@ body {
   font-weight: 300;
 }
 .product-links {
-  margin-top: 2em;
+  margin: 2em 0;
 }
 .product-link {
   margin: 0 1em;
@@ -76,7 +83,7 @@ body {
 }
 .superscribe-screenshot {
   display: block;
-  width: calc(100% + 150px);
-  max-width: 1050px;
-  margin: 0 -75px;
+  width: 1050px;
+  max-width: 100%;
+  margin: 0 auto;
 }

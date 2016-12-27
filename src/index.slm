@@ -19,6 +19,8 @@ html
           Drawstring lets you create comic strips with your friends. Each person
           draws one of the four panels, but can only see the panel that comes
           right before them. Nobody sees the full picture until it's done.
+        p.product-links
+          a href="https://drawstring.somethinglabs.com" Join the play test
         img.drawstring-screenshot src="/images/drawstring-screenshot.jpg" alt="Drawstring screenshot"
     section.product.product--superscribe
       .content
@@ -59,3 +61,8 @@ html
             img src="/images/npm.png" alt="View at npm" width="100"
           a.product-link href="https://github.com/jpsilva/genome"
             img src="/images/github.png" alt="Clone from GitHub" width="100"
+    footer
+      .content
+        p
+          | All artwork, design, code, yada, yada, yada &copy;
+          a href="http://jpsilva.com" Justin Paul Silva
