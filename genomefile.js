@@ -1,14 +1,9 @@
 const browserSync = require('browser-sync'),
-      cpx = require('cpx'),
       genome = require('genome'),
       slm = require('slm'),
       stylus = require('stylus');
 
 genome.tasks = {
-  * copyImages() {
-    return cpx.copySync('src/images/*.{jpeg,jpg,gif,png,svg}', 'images');
-  },
-
   * slmToHtml() {
     let file = yield 'src/index.slm'.read();
     return 'index.html'.write(slm.render(file));
@@ -24,7 +19,6 @@ genome.tasks = {
 
     let server = serve();
 
-    'src/images/*.{jpeg,jpg,gif,png,svg}'.onChange('copyImages');
     'src/index.slm'.onChange('slmToHtml');
     'src/styles/**/*.styl'.onChange('stylusToCss');
     '**/*.{css,html,jpeg,jpg,gif,png,svg}'.onChange(server.reload);

@@ -3,52 +3,89 @@ html
   head
     meta charset="utf-8"
     meta http-equiv="x-ua-compatible" content="ie=edge"
-    title {Something} Labs
+    title jpsilva : Apps : Web Development : Illustration
+
     meta name="viewport" content="width=device-width, initial-scale=1"
+
+    / For old IEs
+    link rel="shortcut icon" href="favicon.ico"
+
+    / For new browsers multisize ico
+    link rel="icon" type="image/x-icon" sizes="16x16 32x32" href="favicon.ico"
+
+    / Chrome for Android
+    link rel="icon" sizes="192x192" href="favicon-192.png"
+
+    / For iPhone 6+ downscaled for other devices
+    link rel="apple-touch-icon-precomposed" sizes="180x180" href="favicon-180.png"
+
+    / For IE10 Metro
+    meta name="msapplication-TileColor" content="#FFFFFF"
+    meta name="msapplication-TileImage" content="favicon-144.png"
+
     link rel="stylesheet" href="styles/site.css"
   body
-    .content
-      h1.site-title {Something} Labs
-      p.site-summary A place for my side projects.
-    section.product.product--drawstring
+    header
       .content
-        img.product-icon src="/images/drawstring-icon.png" alt="Drawstring icon" width="64"
-        h2.product-title Drawstring
-        p.product-summary Create surrealist comic strips with your friends and strangers.
-        p Inspired by the 100 year old surrealist game, exquisite corpse,
-          Drawstring lets you create comic strips with your friends. Each person
-          draws one of the four panels, but can only see the panel that comes
-          right before them. Nobody sees the full picture until it's done.
-        p.product-links
-          a href="https://drawstring.somethinglabs.com" Join the play test
-        img.drawstring-screenshot src="/images/drawstring-screenshot.jpg" alt="Drawstring screenshot"
-    section.product.product--superscribe
+        h1.site-title jpsilva
+        p.site-summary Apps, tools, sites, illustration
+        nav.main-nav
+          a.nav-link href="#summer" Summer
+          a.nav-link href="#superscribe" Superscribe
+          a.nav-link href="#genome" Genome
+          a.nav-link href="#contact" Contact
+    section.product--superscribe#superscribe
       .content
         img.product-icon src="/images/superscribe-icon.png" alt="Superscribe icon" width="64"
         h2.product-title Superscribe
-        p.product-summary Distraction-free comic script editor.
+        p.product-summary Distraction-free comic script editor for Mac.
         p Don't worry about numbering pages and panels. Forget about switching
           between headings, action, characters and dialog. Just write and let
-          Superscribe handle the rest.
-        p The superscript syntax is inspired by markdown. One hashtag creates a page heading.
+          Superscribe handle the formatting.
+        p The superscript syntax was inspired by markdown and fountain. One hashtag creates a page heading.
           Two hashtags create a panel heading. Superscribe inserts the page and
           panel numbers automatically, as you type.
+        p.product-links
+          strong Coming soon to the macOS App Store
+        /  a.product-link href=""
+        /    img src="/images/app-store-badge.svg" alt="Download from the macOS App Store" width="175"
+        /  a.product-link href=""
+        /    img src="/images/windows-store-badge.png" alt="Download from the Windows App Store" width="150"
         img.superscribe-screenshot src="/images/superscribe-screenshot.jpg" alt="Superscript screenshot"
-    section.product.product--summer
-      .content
-        img.product-icon src="/images/summer-icon.png" alt="Summer icon" width="64"
-        h2.product-title Summer
-        p.product-summary Simple scorekeeper app.
-        p Starting a game but you don't have pen and paper? Maybe you're too
-          drunk to add numbers. Download Summer for your iPhone or Android
-          phone to keep score of your card and board games.
-    section.product.product--seconds
-      .content
-        img.product-icon src="/images/seconds-logo.png" alt="Seconds logo" width="150"
-        p.product-summary Multiple cooking timers on your phone.
-        p Easily create multiple timers on your iPhone or Android to make
-          every piece of your meal ready right on time.
-    section.product.product--genome
+  section.product--summer#summer
+    .content
+      img.product-icon src="/images/summer-icon.png" alt="Summer icon" width="64"
+      h2.product-title Summer
+      p.product-summary Simple scorekeeper app for iOS.
+      p Starting a card game but you don't have pen and paper? Maybe you're too
+        drunk to add numbers. Download Summer for your iPhone or Android
+        phone to keep score of your card and board games.
+      p.product-links
+        strong Coming soon to the iOS App Store
+      /  a.product-link href=""
+      /    img src="/images/app-store-badge.svg" alt="Download from the iOS App Store" width="175"
+      /  a.product-link href=""
+      /    img src="/images/google-play-badge.png" alt="Download from the Google Play Store" width="200"
+      img.summer-screenshot src="/images/summer-screenshot.jpg" alt="Summer screenshot"
+    / section.product--drawstring#drawstring
+    /   .content
+    /     img.product-icon src="/images/drawstring-icon.png" alt="Drawstring icon" width="64"
+    /     h2.product-title Drawstring
+    /     p.product-summary Create surrealist comic strips with your friends and strangers.
+    /     p Inspired by the 100 year old surrealist game, exquisite corpse,
+    /       Drawstring lets you create comic strips with your friends. Each person
+    /       draws one of the four panels, but can only see the panel that comes
+    /       right before them. Nobody sees the full picture until it's done.
+    /     p.product-links
+    /       a href="https://drawstring.somethinglabs.com" Join the play test
+    /     img.drawstring-screenshot src="/images/drawstring-screenshot.jpg" alt="Drawstring screenshot"
+    / section.product--seconds#seconds
+    /   .content
+    /     img.product-icon src="/images/seconds-logo.png" alt="Seconds logo" width="150"
+    /     p.product-summary Multiple cooking timers on your phone.
+    /     p Easily create multiple timers on your iPhone or Android to make
+    /       every piece of your meal ready right on time.
+    section.product--genome#genome
       .content
         img.product-icon src="/images/genome-icon.png" alt="Genome logo" width="64"
         h2.product-title Genome
@@ -61,8 +98,13 @@ html
             img src="/images/npm.png" alt="View at npm" width="100"
           a.product-link href="https://github.com/jpsilva/genome"
             img src="/images/github.png" alt="Clone from GitHub" width="100"
+    section.contact#contact
+      .content
+        h2 Contact
+        p
+          . Support, work, cool ideas:
+          a href="mailto:justin@jpsilva.com" justin@jpsilva.com
     footer
       .content
         p
-          | All artwork, design, code, yada, yada, yada &copy;
-          a href="http://jpsilva.com" Justin Paul Silva
+          | All artwork, design, code, yada, yada, yada &copy; Justin Paul Silva

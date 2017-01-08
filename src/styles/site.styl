@@ -15,7 +15,31 @@ a
   &:hover
     color #2957a3
 
+h2
+  margin 0
+  text-align center
+  font-size 2em
+  font-weight 300
+
 // layout
+
+header
+  padding-top 50px
+  background #f45858
+  text-align center
+  color #fff
+
+footer
+  position relative
+  padding 1em 0
+  background #cc4a4a
+  text-align center
+  color #fff
+
+section
+  position relative
+  padding 50px 0
+  box-shadow 0 0 100px rgba(black .2)
 
 .content
   max-width 900px
@@ -25,18 +49,24 @@ a
 // components
 
 .site-title
-  margin 1em 0 1ex
-  text-align center
+  display inline-block
+  margin 0 auto 1ex
+  padding 10px 22px
+  border solid 2px #fff
   font-size 2em
+  font-weight 600
 
 .site-summary
   margin 1em 0 50px
-  text-align center
 
-.product
-  position relative
-  padding 50px 0
-  box-shadow 0 0 100px rgba(black .2)
+.main-nav
+  display flex
+  padding-bottom 50px
+  justify-content center
+
+.nav-link
+  flex 0 0 150px
+  text-decoration none
 
 .product--drawstring
   padding-bottom 0
@@ -51,31 +81,28 @@ a
   color white
 
 .product--summer
-  background #b5e9fb
+  padding-bottom 0
+  background #ffeb86
 
 .product--superscribe
   padding-bottom 0
-  background #FAF9F7
+  background #b1e3f1
 
 .product-icon
   display block
   margin 0 auto 1em
 
-.product-title
 .product-summary
-.product-links
   text-align center
-
-.product-title
-  margin 0
-  font-size 2em
-  font-weight 300
 
 .product-summary
   margin-top 0
   font-weight 300
 
 .product-links
+  display flex
+  align-items center
+  justify-content center
   margin 2em 0
 
 .product-link
@@ -87,8 +114,19 @@ a
   max-width 100%
   margin 0 auto
 
+.summer-screenshot
+  display block
+  width 410px
+  max-width 100%
+  margin 0 auto
+
 .superscribe-screenshot
   display block
   width 1050px
   max-width 100%
   margin 0 auto
+
+.contact
+  background #f45858
+  text-align center
+  color #fff
