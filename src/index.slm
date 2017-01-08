@@ -23,6 +23,7 @@ html
     meta name="msapplication-TileColor" content="#FFFFFF"
     meta name="msapplication-TileImage" content="favicon-144.png"
 
+    link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,600"
     link rel="stylesheet" href="styles/site.css"
   body
     header
