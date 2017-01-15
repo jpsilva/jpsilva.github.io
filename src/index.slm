@@ -47,9 +47,8 @@ html
           Two hashtags create a panel heading. Superscribe inserts the page and
           panel numbers automatically, as you type.
         p.product-links
-          strong Coming soon to the macOS App Store
-        /  a.product-link href=""
-        /    img src="/images/app-store-badge.svg" alt="Download from the macOS App Store" width="175"
+          a.product-link href="https://itunes.apple.com/us/app/superscribe/id1193005924?mt=12"
+           img src="/images/app-store-badge.svg" alt="Download from the macOS App Store" width="175"
         /  a.product-link href=""
         /    img src="/images/windows-store-badge.png" alt="Download from the Windows App Store" width="150"
         img.superscribe-screenshot src="/images/superscribe-screenshot.jpg" alt="Superscript screenshot"
@@ -90,10 +89,12 @@ html
       .content
         img.product-icon src="/images/genome-icon.png" alt="Genome logo" width="64"
         h2.product-title Genome
-        p.product-summary Yet another node builder.
-        p Simple library for compiling your front-end files. No propriety
-          syntax to learn. No plugins required to get your favorite precompilers
-          to work. Just write plain Javascript.
+        p.product-summary Yet another node task runner.
+        p Simple library for compiling your front-end files. There's no messy configuration
+          like with Grunt and no awkward conventions like with Gulp. No plugins required to
+          get your favorite precompilers to work. Just write plain Javascript. You can handle
+          files using streams, promises or plain strings. However your precompiler works,
+          Genome can handle it.
         p.product-links
           a.product-link href="https://www.npmjs.com/package/genome"
             img src="/images/npm.png" alt="View at npm" width="100"
