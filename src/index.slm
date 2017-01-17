@@ -60,9 +60,8 @@ html
       p Starting a card game but you don't have pen and paper? Maybe you're too
         drunk to add numbers. Keep this on your phone just in case.
       p.product-links
-        strong Coming soon to the iOS App Store
-      /  a.product-link href=""
-      /    img src="/images/app-store-badge.svg" alt="Download from the iOS App Store" width="175"
+       a.product-link href="https://itunes.apple.com/us/app/summer-scorekeeper/id1191619401?ls=1&mt=8"
+         img src="/images/app-store-badge.svg" alt="Download from the iOS App Store" width="175"
       /  a.product-link href=""
       /    img src="/images/google-play-badge.png" alt="Download from the Google Play Store" width="200"
       img.summer-screenshot src="/images/summer-screenshot.jpg" alt="Summer screenshot"
