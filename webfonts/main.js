@@ -1,13 +1,19 @@
 const columns = ['name', 'subtype', 'styles', 'mac', 'win', 'ios'],
       platformCheckboxes = document.getElementsByClassName('platformCheckbox'),
       previewText = document.getElementById('previewText'),
+      previewText2 = document.getElementById('previewText2'),
       tableBody = document.getElementById('tableBody'),
+      stickyHeader = document.getElementById('stickyHeader'),
       parser = new DOMParser();
 
 platformCheckboxes.mac.addEventListener('change', renderTable);
 platformCheckboxes.win.addEventListener('change', renderTable);
 platformCheckboxes.ios.addEventListener('change', renderTable);
-previewText.addEventListener('keyup', renderTable);
+previewText.addEventListener('keyup', setPreviewText);
+previewText2.addEventListener('keyup', setPreviewText);
+window.addEventListener('scroll', stickifyHeader, { passive: true });
+
+renderTable();
 
 function renderTable () {
   tableBody.innerHTML = '';
@@ -35,7 +41,23 @@ function renderTable () {
   });
 }
 
-renderTable();
+function setPreviewText() {
+  if (this.id === 'previewText') {
+    previewText2.value = this.value;
+  } else {
+    previewText.value = this.value;
+  }
+
+  renderTable();
+}
+
+function yOffset() {
+  return window.scrollY || window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop;
+}
+
+function stickifyHeader() {
+  stickyHeader.style.top = yOffset() > 600 ? '0' : '-100px';
+}
 
 // platforms = {
 //   mac: ['10.7', '10.10', '10.11', '10.12'],

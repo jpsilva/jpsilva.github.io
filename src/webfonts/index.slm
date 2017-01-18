@@ -83,5 +83,18 @@ html(lang='en')
       .content
         p
           | All artwork, design, code, yada, yada, yada &copy; Justin Paul Silva
+
+    .stickyHeader#stickyHeader
+      .content
+        table
+          tr
+            th Font family
+            th Subtype
+            th Styles
+            th Mac
+            th Windows
+            th iOS
+            th.previewTextHeading
+              input.previewText#previewText2 value="Preview text"
     script(src='font-data.js')
     script(src='main.js')

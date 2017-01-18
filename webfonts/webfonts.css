@@ -32,6 +32,7 @@ table {
   margin-bottom: 1em;
   border-spacing: 0;
   font-weight: normal;
+  table-layout: fixed;
 }
 th {
   padding: 0 1ex 1ex 0;
@@ -47,13 +48,13 @@ th {
   padding-right: 0;
 }
 .previewText {
-  width: 100/7%;
+  width: 100%;
   padding: 1ex;
   border: solid 1px #ddd;
   border-radius: 2px;
 }
 td {
-  width: 14%;
+  width: 14.285714285714286%;
   padding: 1ex 1em 1ex 0;
   border-top: solid 1px #ddd;
   overflow: hidden;
@@ -61,4 +62,17 @@ td {
 }
 .platformCell {
   text-align: center;
+}
+.stickyHeader {
+  position: fixed;
+  top: -100px;
+  left: 0;
+  right: 0;
+  padding-top: 1ex;
+  background: #fafafa;
+  transition: top 0.5s;
+}
+.stickyHeader table {
+  margin: 0;
+  border-bottom: solid 1px #ddd;
 }
