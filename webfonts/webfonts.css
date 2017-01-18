@@ -1,5 +1,7 @@
 body {
-  margin: 1em;
+  max-width: 1000px;
+  margin: auto;
+  padding: 0 1em;
 }
 fieldset {
   margin: 0 0 2em;
@@ -22,11 +24,11 @@ input {
   margin-right: 1ex;
 }
 th {
+  width: 20%;
   padding-right: 1em;
   text-align: left;
 }
 td {
-  width: 14%;
   padding: 1ex 1em 1ex 0;
   border-top: solid 1px #eee;
 }

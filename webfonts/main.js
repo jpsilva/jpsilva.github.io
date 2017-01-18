@@ -3,7 +3,7 @@ const platforms = {
     win: ['3.1', '95', '1997', '98', '2000', 'XP', 'Vista', '7', '8', '8.1', '10'],
     ios: ['2.0', '3.0', '3.2', '4.0', '5.0', '6.0', '7.0', '8.0', '9.0', '10.0']
   },
-  columns = ['name', 'subtype', 'styles', 'notes', 'mac', 'win', 'ios' ],
+  columns = ['name', 'subtype', 'styles', 'mac', 'win', 'ios'],
   platformCheckboxes = document.getElementsByClassName('platformCheckbox'),
   tableBody = document.getElementById('tableBody'),
   parser = new DOMParser();

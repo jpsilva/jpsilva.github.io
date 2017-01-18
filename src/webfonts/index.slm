@@ -34,7 +34,6 @@ html(lang='en')
           th Font family
           th Subtype
           th Styles
-          th Notes
           th Mac version
           th Windows version
           th iOS version
