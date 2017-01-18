@@ -1,14 +1,5 @@
 const fonts = [
   {
-    "name": ".AquaKana",
-    "subtype": "",
-    "styles": "Regular",
-    "notes": "",
-    "mac": "10.7",
-    "win": "",
-    "ios": ""
-  },
-  {
     "name": "Abadi MT Condensed Light",
     "subtype": "",
     "styles": "Regular",
@@ -236,6 +227,15 @@ const fonts = [
   {
     "name": "Apple Symbols",
     "subtype": "picto",
+    "styles": "Regular",
+    "notes": "",
+    "mac": "10.7",
+    "win": "",
+    "ios": ""
+  },
+  {
+    "name": "AquaKana",
+    "subtype": "",
     "styles": "Regular",
     "notes": "",
     "mac": "10.7",

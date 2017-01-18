@@ -4,7 +4,7 @@ html(lang='en')
     meta charset='UTF-8'
     meta name="viewport" content="width=device-width, initial-scale=1"
     meta http-equiv='X-UA-Compatible' content='ie=edge'
-    title jpsilva's Websafe Font Comparison
+    title jpsilva's Web-safe Font Comparison
 
     / For old IEs
     link rel="shortcut icon" href="/favicon.ico"
@@ -22,8 +22,9 @@ html(lang='en')
     meta name="msapplication-TileColor" content="#FFFFFF"
     meta name="msapplication-TileImage" content="/favicon-144.png"
 
-    link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css'
+    link rel='stylesheet' href='/styles/site.css'
     link rel='stylesheet' href='webfonts.css'
+    link rel="stylesheet" href="https://fontlibrary.org/face/adobe-blank" type="text/css"
 
     javascript:
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -34,35 +35,53 @@ html(lang='en')
       ga('create', 'UA-15048691-2', 'auto');
       ga('send', 'pageview');
   body
-    h1 Websafe font comparison
-    .sources
-      . Sources:
-      a(href='https://en.wikipedia.org/wiki/List_of_typefaces_included_with_macOS') Wikipedia's list typefaces included with macOS
-      . ,
-      a(href='https://en.wikipedia.org/wiki/List_of_typefaces_included_with_Microsoft_Windows') Wikipedia's list typefaces included with Windows
-      . ,
-      a(href='http://iosfontlist.com/') iOS Font List
+    .content
+      h1 Web-safe Font Comparison
+      p
+        . Sources:
+        a(href='https://en.wikipedia.org/wiki/List_of_typefaces_included_with_macOS') Wikipedia's list typefaces included with macOS
+        . ,
+        a(href='https://en.wikipedia.org/wiki/List_of_typefaces_included_with_Microsoft_Windows') Wikipedia's list typefaces included with Windows
+        . ,
+        a(href='http://iosfontlist.com/') iOS Font List
+      p.notes
+        | Platform version identifies the earliest version to include the font.
+          Duplicate font family names are used to identify different font styles
+          appearing in different platform versions. If the preview text field
+          for a given font is blank, then it may not be installed on your device,
+          or the font may not include latin alphabet glyphs.
     fieldset
-      legend Platform support
-      label
-        input.platformCheckbox name='mac' type='checkbox'
-        | Mac
-      label
-        input.platformCheckbox name='win' type='checkbox'
-        | Windows
-      label
-        input.platformCheckbox name='ios' type='checkbox'
-        | iOS
-    p.notes Platform version identifies the earliest version to include the font. Duplicate font family names are used to identify different font styles appearing in different platform versions.
-    table
-      thead
-        tr
-          th Font family
-          th Subtype
-          th Styles
-          th Mac version
-          th Windows version
-          th iOS version
-      tbody#tableBody
+      .content
+        legend Platform support
+        label
+          input.platformCheckbox name='mac' type='checkbox'
+          | Mac
+        label
+          input.platformCheckbox name='win' type='checkbox'
+          | Windows
+        label
+          input.platformCheckbox name='ios' type='checkbox'
+          | iOS
+    .content
+      table
+        thead
+          tr
+            th colspan=3
+            th.platformHeading colspan=3 Earliest version available
+            th
+          tr
+            th Font family
+            th Subtype
+            th Styles
+            th Mac
+            th Windows
+            th iOS
+            th.previewTextHeading
+              input.previewText#previewText value="Preview text"
+        tbody#tableBody
+    footer
+      .content
+        p
+          | All artwork, design, code, yada, yada, yada &copy; Justin Paul Silva
     script(src='font-data.js')
     script(src='main.js')

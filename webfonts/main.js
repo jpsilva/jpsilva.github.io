@@ -1,11 +1,13 @@
 const columns = ['name', 'subtype', 'styles', 'mac', 'win', 'ios'],
       platformCheckboxes = document.getElementsByClassName('platformCheckbox'),
+      previewText = document.getElementById('previewText'),
       tableBody = document.getElementById('tableBody'),
       parser = new DOMParser();
 
 platformCheckboxes.mac.addEventListener('change', renderTable);
 platformCheckboxes.win.addEventListener('change', renderTable);
 platformCheckboxes.ios.addEventListener('change', renderTable);
+previewText.addEventListener('keyup', renderTable);
 
 function renderTable () {
   tableBody.innerHTML = '';
@@ -19,9 +21,14 @@ function renderTable () {
 
       columns.forEach((prop) => {
         let cell = document.createElement('td');
-        cell.innerHTML = font[prop];
+        cell.innerText = font[prop];
         row.append(cell);
       });
+
+      let previewCell = document.createElement('td');
+      previewCell.style.fontFamily = `${font.name}, AdobeBlankRegular`;
+      previewCell.innerText = previewText.value;
+      row.append(previewCell);
 
       tableBody.append(row);
     }
