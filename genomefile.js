@@ -9,17 +9,23 @@ genome.tasks = {
     return 'index.html'.write(slm.render(file));
   },
 
+  * fontSlmToHtml() {
+    let file = yield 'src/webfonts/index.slm'.read();
+    return 'webfonts/index.html'.write(slm.render(file));
+  },
+
   * stylusToCss() {
     let file = yield 'src/styles/site.styl'.read();
     return 'styles/site.css'.write(stylus(file).render());
   },
 
   * watch() {
-    yield genome.spawn(['copyImages', 'slmToHtml', 'stylusToCss']);
+    yield genome.spawn(['slmToHtml', 'fontSlmToHtml', 'stylusToCss']);
 
     let server = serve();
 
     'src/index.slm'.onChange('slmToHtml');
+    'src/webfonts/index.slm'.onChange('fontSlmToHtml');
     'src/styles/**/*.styl'.onChange('stylusToCss');
     '**/*.{css,html,jpeg,jpg,gif,png,svg}'.onChange(server.reload);
   }

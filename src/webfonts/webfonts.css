@@ -1,0 +1,39 @@
+body {
+  margin: 1em;
+}
+fieldset {
+  margin: 0 0 2em;
+  padding: 1em;
+  border: none;
+  background: #eee;
+}
+legend {
+  display: block;
+  float: left;
+  width: 100%;
+  margin-bottom: 1em;
+  font-weight: bold;
+}
+label {
+  margin: 1ex 1em 0 0;
+  padding: 4px 0;
+}
+input {
+  margin-right: 1ex;
+}
+th {
+  padding-right: 1em;
+  text-align: left;
+}
+td {
+  width: 14%;
+  padding: 1ex 1em 1ex 0;
+  border-top: solid 1px #eee;
+}
+.sources {
+  padding: 1em;
+  background: #ddd;
+}
+.notes {
+  color: #999;
+}

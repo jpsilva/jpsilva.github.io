@@ -1,0 +1,43 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='UTF-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    meta(http-equiv='X-UA-Compatible', content='ie=edge')
+    title jpsilva's Websafe Font Comparison
+    link(rel='stylesheet', href='https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css')
+    link(rel='stylesheet', href='webfonts.css')
+  body
+    h1 Websafe font comparison
+    .sources
+      . Sources:
+      a(href='https://en.wikipedia.org/wiki/List_of_typefaces_included_with_macOS') Wikipedia's list typefaces included with macOS
+      . ,
+      a(href='https://en.wikipedia.org/wiki/List_of_typefaces_included_with_Microsoft_Windows') Wikipedia's list typefaces included with Windows
+      . ,
+      a(href='http://iosfontlist.com/') iOS Font List
+    fieldset
+      legend Platform support
+      label
+        input.platformCheckbox(name='mac', type='checkbox')
+        | Mac
+      label
+        input.platformCheckbox(name='win', type='checkbox')
+        | Windows
+      label
+        input.platformCheckbox(name='ios', type='checkbox')
+        | iOS
+    p.notes Platform version identifies the earliest version to include the font. Duplicate font family names are used to identify different font styles appearing in different platform versions.
+    table
+      thead
+        tr
+          th Font family
+          th Subtype
+          th Styles
+          th Notes
+          th Mac version
+          th Windows version
+          th iOS version
+      tbody#tableBody
+    script(src='font-data.js')
+    script(src='main.js')
