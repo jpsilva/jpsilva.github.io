@@ -40,8 +40,8 @@ html
         h1.site-title jpsilva
         p.site-summary Apps, tools, sites, illustration
         nav.main-nav
-          a.nav-link href="#summer" Summer
           a.nav-link href="#superscribe" Superscribe
+          a.nav-link href="#summer" Summer
           a.nav-link href="#genome" Genome
           a.nav-link href="#contact" Contact
     section.product--superscribe#superscribe
