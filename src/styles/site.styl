@@ -45,7 +45,8 @@ section
   box-shadow 0 0 100px rgba(black .2)
 
 .content
-  max-width 900px
+  width 900px
+  max-width 100vw
   margin 0 auto
   padding 0 1em
 
@@ -62,13 +63,10 @@ section
 .site-summary
   margin 1em 0 50px
 
-.main-nav
-  display flex
-  padding-bottom 50px
-  justify-content center
-
 .nav-link
-  flex 0 0 150px
+  display inline-block
+  width 150px
+  height 50px
   text-decoration none
 
 .product--drawstring
@@ -103,13 +101,12 @@ section
   font-weight 300
 
 .product-links
-  display flex
-  align-items center
-  justify-content center
-  margin 2em 0
+  text-align center
 
 .product-link
-  margin 0 1em
+  display inline-block
+  margin 1em
+  vertical-align middle
 
 .drawstring-screenshot
   display block
