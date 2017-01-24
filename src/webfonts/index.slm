@@ -62,6 +62,9 @@ html(lang='en')
         label
           input.platformCheckbox name='ios' type='checkbox'
           | iOS
+        label
+          input.platformCheckbox name='android' type='checkbox'
+          | Android
     .content
       table
         thead
@@ -70,14 +73,15 @@ html(lang='en')
             th.platformHeading colspan=3 Earliest version available
             th
           tr
-            th Font family
+            th Family
             th Subtype
             th Styles
             th Mac
             th Windows
             th iOS
+            th Android
             th.previewTextHeading
-              input.previewText#previewText value="Preview text"
+              input.previewText#previewText value="Preview"
         tbody#tableBody
     footer
       .content
@@ -88,13 +92,14 @@ html(lang='en')
       .content
         table
           tr
-            th Font family
+            th Family
             th Subtype
             th Styles
             th Mac
             th Windows
             th iOS
+            th Android
             th.previewTextHeading
-              input.previewText#previewText2 value="Preview text"
+              input.previewText#previewText2 value="Preview"
     script(src='font-data.js')
     script(src='main.js')

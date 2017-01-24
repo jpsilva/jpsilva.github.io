@@ -1,4 +1,4 @@
-const columns = ['name', 'subtype', 'styles', 'mac', 'win', 'ios'],
+const columns = ['name', 'subtype', 'styles', 'mac', 'win', 'ios', 'android'],
       platformCheckboxes = document.getElementsByClassName('platformCheckbox'),
       previewText = document.getElementById('previewText'),
       previewText2 = document.getElementById('previewText2'),
@@ -9,6 +9,7 @@ const columns = ['name', 'subtype', 'styles', 'mac', 'win', 'ios'],
 platformCheckboxes.mac.addEventListener('change', renderTable);
 platformCheckboxes.win.addEventListener('change', renderTable);
 platformCheckboxes.ios.addEventListener('change', renderTable);
+platformCheckboxes.android.addEventListener('change', renderTable);
 previewText.addEventListener('keyup', setPreviewText);
 previewText2.addEventListener('keyup', setPreviewText);
 window.addEventListener('scroll', stickifyHeader, { passive: true });
@@ -16,12 +17,14 @@ window.addEventListener('scroll', stickifyHeader, { passive: true });
 renderTable();
 
 function renderTable () {
+  let hasResults = false;
   tableBody.innerHTML = '';
 
   fonts.forEach((font) => {
     if ((!platformCheckboxes.mac.checked || font.mac.length) &&
         (!platformCheckboxes.win.checked || font.win.length) &&
-        (!platformCheckboxes.ios.checked || font.ios.length)
+        (!platformCheckboxes.ios.checked || font.ios.length) &&
+        (!platformCheckboxes.android.checked || font.android.length)
       ) {
       let row = document.createElement('tr');
 
@@ -37,8 +40,14 @@ function renderTable () {
       row.append(previewCell);
 
       tableBody.append(row);
+
+      hasResults = true;
     }
   });
+
+  if (!hasResults) {
+    tableBody.innerHTML = '<tr><td colspan="8">Sorry, no results</td></tr>';
+  }
 }
 
 function setPreviewText() {

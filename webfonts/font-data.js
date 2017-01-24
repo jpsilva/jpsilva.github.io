@@ -6,7 +6,8 @@ const fonts = [
     "notes": "Latin/Greek/Cyrillic",
     "mac": "",
     "win": "98",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Academy Engraved LET",
@@ -15,7 +16,8 @@ const fonts = [
     "notes": "",
     "mac": "",
     "win": "",
-    "ios": "3.2"
+    "ios": "3.2",
+    "android": ""
   },
   {
     "name": "Aharoni",
@@ -24,7 +26,8 @@ const fonts = [
     "notes": "Hebrew",
     "mac": "",
     "win": "10",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Al Bayan",
@@ -33,7 +36,8 @@ const fonts = [
     "notes": "Arabic",
     "mac": "10.7",
     "win": "",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Al Nile",
@@ -42,7 +46,8 @@ const fonts = [
     "notes": "",
     "mac": "",
     "win": "",
-    "ios": "7.0"
+    "ios": "7.0",
+    "android": ""
   },
   {
     "name": "Aldhabi",
@@ -51,7 +56,8 @@ const fonts = [
     "notes": "Arabic",
     "mac": "",
     "win": "8",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "American Typewriter",
@@ -60,7 +66,8 @@ const fonts = [
     "notes": "",
     "mac": "10.7",
     "win": "",
-    "ios": "2.0"
+    "ios": "2.0",
+    "android": ""
   },
   {
     "name": "American Typewriter",
@@ -69,7 +76,8 @@ const fonts = [
     "notes": "",
     "mac": "10.7",
     "win": "",
-    "ios": "5.0"
+    "ios": "5.0",
+    "android": ""
   },
   {
     "name": "American Typewriter",
@@ -78,7 +86,8 @@ const fonts = [
     "notes": "",
     "mac": "",
     "win": "",
-    "ios": "10.0"
+    "ios": "10.0",
+    "android": ""
   },
   {
     "name": "Andale Mono",
@@ -87,7 +96,8 @@ const fonts = [
     "notes": "",
     "mac": "10.7",
     "win": "",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Andalus",
@@ -96,7 +106,8 @@ const fonts = [
     "notes": "Arabic",
     "mac": "",
     "win": "",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Angsana New",
@@ -105,7 +116,8 @@ const fonts = [
     "notes": "Thai",
     "mac": "",
     "win": "",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "AngsanaUPC",
@@ -114,7 +126,8 @@ const fonts = [
     "notes": "Thai",
     "mac": "",
     "win": "",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Aparajita",
@@ -123,7 +136,8 @@ const fonts = [
     "notes": "Devanagari",
     "mac": "",
     "win": "7",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Apple Casual",
@@ -132,7 +146,8 @@ const fonts = [
     "notes": "Hidden, see below",
     "mac": "10.7",
     "win": "",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Apple Chancery",
@@ -141,7 +156,8 @@ const fonts = [
     "notes": "",
     "mac": "10.7",
     "win": "",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Apple Color Emoji",
@@ -150,7 +166,8 @@ const fonts = [
     "notes": "",
     "mac": "",
     "win": "",
-    "ios": "5.0"
+    "ios": "5.0",
+    "android": ""
   },
   {
     "name": "Apple Garamond",
@@ -159,7 +176,8 @@ const fonts = [
     "notes": "Hidden, see below",
     "mac": "10.7",
     "win": "",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Apple Gothic",
@@ -168,7 +186,8 @@ const fonts = [
     "notes": "Korean",
     "mac": "10.7",
     "win": "",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Apple LiGothic",
@@ -177,7 +196,8 @@ const fonts = [
     "notes": "Traditional Chinese",
     "mac": "10.7",
     "win": "",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Apple LiSung",
@@ -186,7 +206,8 @@ const fonts = [
     "notes": "Traditional Chinese",
     "mac": "10.7",
     "win": "",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Apple Myungjo",
@@ -195,7 +216,8 @@ const fonts = [
     "notes": "Korean",
     "mac": "10.7",
     "win": "",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Apple SD Gothic Neo",
@@ -204,7 +226,8 @@ const fonts = [
     "notes": "",
     "mac": "",
     "win": "",
-    "ios": "6.0"
+    "ios": "6.0",
+    "android": ""
   },
   {
     "name": "Apple SD Gothic Neo",
@@ -213,7 +236,8 @@ const fonts = [
     "notes": "",
     "mac": "",
     "win": "",
-    "ios": "7.0"
+    "ios": "7.0",
+    "android": ""
   },
   {
     "name": "Apple SD Gothic Neo",
@@ -222,7 +246,8 @@ const fonts = [
     "notes": "",
     "mac": "",
     "win": "",
-    "ios": "8.0"
+    "ios": "8.0",
+    "android": ""
   },
   {
     "name": "Apple Symbols",
@@ -231,7 +256,8 @@ const fonts = [
     "notes": "",
     "mac": "10.7",
     "win": "",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "AquaKana",
@@ -240,7 +266,8 @@ const fonts = [
     "notes": "",
     "mac": "10.7",
     "win": "",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Arabic Typesetting",
@@ -249,7 +276,8 @@ const fonts = [
     "notes": "Arabic",
     "mac": "",
     "win": "",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Arial",
@@ -258,7 +286,8 @@ const fonts = [
     "notes": "Bundled with Windows",
     "mac": "10.7",
     "win": "",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Arial",
@@ -267,7 +296,8 @@ const fonts = [
     "notes": "Latin/Greek/Cyrillic, Arabic, Hebrew",
     "mac": "10.7",
     "win": "3.1",
-    "ios": "2.0"
+    "ios": "2.0",
+    "android": ""
   },
   {
     "name": "Arial Black",
@@ -276,7 +306,8 @@ const fonts = [
     "notes": "Latin/Greek/Cyrillic, Arabic, Hebrew",
     "mac": "",
     "win": "98",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Arial Hebrew",
@@ -285,7 +316,8 @@ const fonts = [
     "notes": "Hebrew",
     "mac": "10.7",
     "win": "",
-    "ios": "3.0"
+    "ios": "3.0",
+    "android": ""
   },
   {
     "name": "Arial Hebrew",
@@ -294,7 +326,8 @@ const fonts = [
     "notes": "Hebrew",
     "mac": "10.7",
     "win": "",
-    "ios": "7.0"
+    "ios": "7.0",
+    "android": ""
   },
   {
     "name": "Arial Nova",
@@ -303,7 +336,8 @@ const fonts = [
     "notes": "Latin/Greek/Cyrillic",
     "mac": "",
     "win": "10",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Arial Rounded",
@@ -312,7 +346,8 @@ const fonts = [
     "notes": "",
     "mac": "",
     "win": "",
-    "ios": "2.0"
+    "ios": "2.0",
+    "android": ""
   },
   {
     "name": "Avenir",
@@ -321,7 +356,8 @@ const fonts = [
     "notes": "",
     "mac": "",
     "win": "",
-    "ios": "6.0"
+    "ios": "6.0",
+    "android": ""
   },
   {
     "name": "Avenir Next",
@@ -330,7 +366,8 @@ const fonts = [
     "notes": "",
     "mac": "",
     "win": "",
-    "ios": "6.0"
+    "ios": "6.0",
+    "android": ""
   },
   {
     "name": "Avenir Next Condensed",
@@ -339,7 +376,8 @@ const fonts = [
     "notes": "",
     "mac": "",
     "win": "",
-    "ios": "6.0"
+    "ios": "6.0",
+    "android": ""
   },
   {
     "name": "Ayuthaya",
@@ -348,7 +386,8 @@ const fonts = [
     "notes": "Thai",
     "mac": "10.7",
     "win": "",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Baghdad",
@@ -357,7 +396,8 @@ const fonts = [
     "notes": "Arabic",
     "mac": "10.7",
     "win": "",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Bangla Sangam MN",
@@ -366,7 +406,8 @@ const fonts = [
     "notes": "",
     "mac": "",
     "win": "",
-    "ios": "4.0"
+    "ios": "4.0",
+    "android": ""
   },
   {
     "name": "Baskerville",
@@ -375,7 +416,8 @@ const fonts = [
     "notes": "",
     "mac": "10.7",
     "win": "",
-    "ios": "3.2"
+    "ios": "3.2",
+    "android": ""
   },
   {
     "name": "Baskerville",
@@ -384,7 +426,8 @@ const fonts = [
     "notes": "",
     "mac": "10.7",
     "win": "",
-    "ios": "5.0"
+    "ios": "5.0",
+    "android": ""
   },
   {
     "name": "Batang",
@@ -393,7 +436,8 @@ const fonts = [
     "notes": "Korean",
     "mac": "",
     "win": "XP",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "BatangChe",
@@ -402,7 +446,8 @@ const fonts = [
     "notes": "Korean",
     "mac": "",
     "win": "",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Beijing",
@@ -411,7 +456,8 @@ const fonts = [
     "notes": "Simplified Chinese; bitmap only",
     "mac": "10.7",
     "win": "",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "BiauKai",
@@ -420,7 +466,8 @@ const fonts = [
     "notes": "Traditional Chinese; missing in Yosemite and El Capitan until Sierra.",
     "mac": "10.7",
     "win": "",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Big Caslon",
@@ -429,7 +476,8 @@ const fonts = [
     "notes": "",
     "mac": "10.7",
     "win": "",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Bitstream Symbols",
@@ -438,7 +486,8 @@ const fonts = [
     "notes": "",
     "mac": "10.10",
     "win": "",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Bodoni 72",
@@ -447,7 +496,8 @@ const fonts = [
     "notes": "",
     "mac": "",
     "win": "",
-    "ios": "3.2"
+    "ios": "3.2",
+    "android": ""
   },
   {
     "name": "Bodoni 72 Oldstyle",
@@ -456,7 +506,8 @@ const fonts = [
     "notes": "",
     "mac": "",
     "win": "",
-    "ios": "3.2"
+    "ios": "3.2",
+    "android": ""
   },
   {
     "name": "Bodoni 72 Smallcaps",
@@ -465,7 +516,8 @@ const fonts = [
     "notes": "",
     "mac": "",
     "win": "",
-    "ios": "3.2"
+    "ios": "3.2",
+    "android": ""
   },
   {
     "name": "Bodoni Ornaments",
@@ -474,7 +526,8 @@ const fonts = [
     "notes": "",
     "mac": "",
     "win": "",
-    "ios": "3.2"
+    "ios": "3.2",
+    "android": ""
   },
   {
     "name": "Book Antiqua",
@@ -483,7 +536,8 @@ const fonts = [
     "notes": "Latin/Greek/Cyrillic",
     "mac": "",
     "win": "98",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Bradley Hand",
@@ -492,7 +546,8 @@ const fonts = [
     "notes": "",
     "mac": "",
     "win": "",
-    "ios": "3.2"
+    "ios": "3.2",
+    "android": ""
   },
   {
     "name": "Browallia New",
@@ -501,7 +556,8 @@ const fonts = [
     "notes": "Thai",
     "mac": "",
     "win": "",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "BrowalliaUPC",
@@ -510,7 +566,8 @@ const fonts = [
     "notes": "Thai",
     "mac": "",
     "win": "",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Brush Script",
@@ -519,7 +576,8 @@ const fonts = [
     "notes": "",
     "mac": "10.7",
     "win": "",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Calibri",
@@ -528,7 +586,8 @@ const fonts = [
     "notes": "Latin/Greek/Cyrillic, Vietnamese (Windows 8.0)",
     "mac": "",
     "win": "Vista",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Calibri Light",
@@ -537,7 +596,8 @@ const fonts = [
     "notes": "Latin/Greek/Cyrillic, Vietnamese",
     "mac": "",
     "win": "8.0",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Calisto MT",
@@ -546,7 +606,8 @@ const fonts = [
     "notes": "Latin/Greek/Cyrillic",
     "mac": "",
     "win": "98",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Cambria",
@@ -555,7 +616,8 @@ const fonts = [
     "notes": "Latin/Greek/Cyrillic",
     "mac": "",
     "win": "Vista",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Cambria Math",
@@ -564,7 +626,8 @@ const fonts = [
     "notes": "Math",
     "mac": "",
     "win": "Vista",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Candara",
@@ -573,7 +636,8 @@ const fonts = [
     "notes": "Latin/Greek/Cyrillic",
     "mac": "",
     "win": "Vista",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Century Gothic",
@@ -582,7 +646,8 @@ const fonts = [
     "notes": "Latin/Greek/Cyrillic",
     "mac": "",
     "win": "98",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Chalkboard",
@@ -591,7 +656,8 @@ const fonts = [
     "notes": "Bold added in 10.4; Bold",
     "mac": "10.7",
     "win": "",
-    "ios": "5.0"
+    "ios": "5.0",
+    "android": ""
   },
   {
     "name": "Chalkboard",
@@ -600,7 +666,8 @@ const fonts = [
     "notes": "",
     "mac": "",
     "win": "",
-    "ios": "5.0"
+    "ios": "5.0",
+    "android": ""
   },
   {
     "name": "Chalkduster",
@@ -609,7 +676,8 @@ const fonts = [
     "notes": "added in 10.6",
     "mac": "10.7",
     "win": "",
-    "ios": "3.2"
+    "ios": "3.2",
+    "android": ""
   },
   {
     "name": "Charcoal",
@@ -618,7 +686,8 @@ const fonts = [
     "notes": "Classic only",
     "mac": "10.7",
     "win": "",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Charcoal CY",
@@ -627,7 +696,8 @@ const fonts = [
     "notes": "Cyrillic",
     "mac": "10.7",
     "win": "",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Chicago",
@@ -636,7 +706,8 @@ const fonts = [
     "notes": "Classic only, see Krungthep below",
     "mac": "10.7",
     "win": "",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Cochin",
@@ -645,7 +716,8 @@ const fonts = [
     "notes": "",
     "mac": "10.7",
     "win": "",
-    "ios": "3.2"
+    "ios": "3.2",
+    "android": ""
   },
   {
     "name": "Comic Sans MS",
@@ -654,7 +726,8 @@ const fonts = [
     "notes": "Latin/Greek/Cyrillic",
     "mac": "10.7",
     "win": "95",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Consolas",
@@ -663,7 +736,8 @@ const fonts = [
     "notes": "Latin/Greek/Cyrillic",
     "mac": "",
     "win": "Vista",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Constantia",
@@ -672,7 +746,8 @@ const fonts = [
     "notes": "Latin/Greek/Cyrillic",
     "mac": "",
     "win": "Vista",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Cooper",
@@ -681,7 +756,8 @@ const fonts = [
     "notes": "",
     "mac": "10.7",
     "win": "",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Copperplate",
@@ -690,7 +766,8 @@ const fonts = [
     "notes": "",
     "mac": "10.7",
     "win": "",
-    "ios": "3.2"
+    "ios": "3.2",
+    "android": ""
   },
   {
     "name": "Copperplate",
@@ -699,7 +776,8 @@ const fonts = [
     "notes": "Latin/Greek/Cyrillic",
     "mac": "10.7",
     "win": "",
-    "ios": "5.0"
+    "ios": "5.0",
+    "android": ""
   },
   {
     "name": "Copperplate Gothic",
@@ -708,7 +786,8 @@ const fonts = [
     "notes": "Latin/Greek/Cyrillic",
     "mac": "",
     "win": "98",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Corbel",
@@ -717,7 +796,8 @@ const fonts = [
     "notes": "Latin/Greek/Cyrillic",
     "mac": "",
     "win": "Vista",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Cordia New",
@@ -726,7 +806,8 @@ const fonts = [
     "notes": "Thai",
     "mac": "",
     "win": "",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "CordiaUPC",
@@ -735,7 +816,8 @@ const fonts = [
     "notes": "Thai",
     "mac": "",
     "win": "",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Corsiva Hebrew",
@@ -744,7 +826,8 @@ const fonts = [
     "notes": "Hebrew",
     "mac": "10.7",
     "win": "",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Courier",
@@ -753,7 +836,8 @@ const fonts = [
     "notes": "",
     "mac": "10.7",
     "win": "",
-    "ios": "3.0"
+    "ios": "3.0",
+    "android": ""
   },
   {
     "name": "Courier New",
@@ -762,7 +846,8 @@ const fonts = [
     "notes": "Latin/Greek/Cyrillic, Arabic, Hebrew",
     "mac": "10.7",
     "win": "3.1",
-    "ios": "2.0"
+    "ios": "2.0",
+    "android": ""
   },
   {
     "name": "Damascus",
@@ -771,7 +856,8 @@ const fonts = [
     "notes": "",
     "mac": "",
     "win": "",
-    "ios": "7.0"
+    "ios": "7.0",
+    "android": ""
   },
   {
     "name": "Damascus",
@@ -780,7 +866,8 @@ const fonts = [
     "notes": "",
     "mac": "",
     "win": "",
-    "ios": "8.0"
+    "ios": "8.0",
+    "android": ""
   },
   {
     "name": "DaunPenh",
@@ -789,7 +876,8 @@ const fonts = [
     "notes": "Khmer",
     "mac": "",
     "win": "Vista",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "David",
@@ -798,7 +886,8 @@ const fonts = [
     "notes": "Hebrew",
     "mac": "",
     "win": "",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "DecoType Naskh",
@@ -807,7 +896,8 @@ const fonts = [
     "notes": "Naskh Arabic",
     "mac": "10.7",
     "win": "",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Dengxian",
@@ -816,7 +906,8 @@ const fonts = [
     "notes": "Simplified Chinese",
     "mac": "",
     "win": "10",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Devanagari",
@@ -825,7 +916,8 @@ const fonts = [
     "notes": "Devanagari",
     "mac": "10.7",
     "win": "",
-    "ios": "4.0"
+    "ios": "4.0",
+    "android": ""
   },
   {
     "name": "DFKai-SB",
@@ -834,7 +926,8 @@ const fonts = [
     "notes": "Traditional Chinese",
     "mac": "",
     "win": "",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Didot",
@@ -843,7 +936,8 @@ const fonts = [
     "notes": "",
     "mac": "10.7",
     "win": "",
-    "ios": "3.2"
+    "ios": "3.2",
+    "android": ""
   },
   {
     "name": "DilleniaUPC",
@@ -852,7 +946,8 @@ const fonts = [
     "notes": "Thai",
     "mac": "",
     "win": "",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "DIN Alternate",
@@ -861,7 +956,8 @@ const fonts = [
     "notes": "",
     "mac": "",
     "win": "",
-    "ios": "7.0"
+    "ios": "7.0",
+    "android": ""
   },
   {
     "name": "DIN Condensed",
@@ -870,7 +966,8 @@ const fonts = [
     "notes": "",
     "mac": "",
     "win": "",
-    "ios": "7.0"
+    "ios": "7.0",
+    "android": ""
   },
   {
     "name": "Diwan Mishafi",
@@ -879,7 +976,8 @@ const fonts = [
     "notes": "",
     "mac": "",
     "win": "",
-    "ios": "7.0"
+    "ios": "7.0",
+    "android": ""
   },
   {
     "name": "DokChampa",
@@ -888,7 +986,8 @@ const fonts = [
     "notes": "Lao",
     "mac": "",
     "win": "",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Dotum",
@@ -897,7 +996,8 @@ const fonts = [
     "notes": "Korean",
     "mac": "",
     "win": "",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "DotumChe",
@@ -906,7 +1006,38 @@ const fonts = [
     "notes": "Korean",
     "mac": "",
     "win": "",
-    "ios": ""
+    "ios": "",
+    "android": ""
+  },
+  {
+    "name": "Droid Sans",
+    "subtype": "",
+    "styles": "Regular, Bold",
+    "notes": "",
+    "mac": "",
+    "win": "",
+    "ios": "",
+    "android": "1.0"
+  },
+  {
+    "name": "Droid Sans Mono",
+    "subtype": "",
+    "styles": "Regular",
+    "notes": "",
+    "mac": "",
+    "win": "",
+    "ios": "",
+    "android": "1.0"
+  },
+  {
+    "name": "Droid Serif",
+    "subtype": "",
+    "styles": "Regular, Bold, Italic, Bold Italic",
+    "notes": "",
+    "mac": "",
+    "win": "",
+    "ios": "",
+    "android": "1.0"
   },
   {
     "name": "Ebrima",
@@ -915,7 +1046,8 @@ const fonts = [
     "notes": "N'Ko, Tifinagh, Vai",
     "mac": "",
     "win": "7",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Estrangelo Edessa",
@@ -924,7 +1056,8 @@ const fonts = [
     "notes": "Syriac",
     "mac": "",
     "win": "",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "EucrosiaUPC",
@@ -933,7 +1066,8 @@ const fonts = [
     "notes": "Thai",
     "mac": "",
     "win": "",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Euphemia",
@@ -942,7 +1076,8 @@ const fonts = [
     "notes": "Unified Canadian Syllabics",
     "mac": "",
     "win": "",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Euphemia UCAS",
@@ -951,7 +1086,8 @@ const fonts = [
     "notes": "Canadian Syllabics",
     "mac": "10.7",
     "win": "",
-    "ios": "5.0"
+    "ios": "5.0",
+    "android": ""
   },
   {
     "name": "Fang Song",
@@ -960,7 +1096,8 @@ const fonts = [
     "notes": "Simplified Chinese",
     "mac": "10.7",
     "win": "",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "FangSong",
@@ -969,7 +1106,8 @@ const fonts = [
     "notes": "Simplified Chinese",
     "mac": "",
     "win": "",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Farah",
@@ -978,7 +1116,8 @@ const fonts = [
     "notes": "",
     "mac": "",
     "win": "",
-    "ios": "7.0"
+    "ios": "7.0",
+    "android": ""
   },
   {
     "name": "Franklin Gothic Medium",
@@ -987,7 +1126,8 @@ const fonts = [
     "notes": "Latin/Greek/Cyrillic",
     "mac": "",
     "win": "7",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "FrankRuehl",
@@ -996,7 +1136,8 @@ const fonts = [
     "notes": "Hebrew",
     "mac": "",
     "win": "",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "FreesiaUPC",
@@ -1005,7 +1146,8 @@ const fonts = [
     "notes": "Thai",
     "mac": "",
     "win": "",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Futura",
@@ -1014,7 +1156,8 @@ const fonts = [
     "notes": "",
     "mac": "10.7",
     "win": "",
-    "ios": "3.2"
+    "ios": "3.2",
+    "android": ""
   },
   {
     "name": "Futura",
@@ -1023,7 +1166,8 @@ const fonts = [
     "notes": "",
     "mac": "10.7",
     "win": "",
-    "ios": "5.0"
+    "ios": "5.0",
+    "android": ""
   },
   {
     "name": "Futura",
@@ -1032,7 +1176,8 @@ const fonts = [
     "notes": "",
     "mac": "",
     "win": "",
-    "ios": "10.0"
+    "ios": "10.0",
+    "android": ""
   },
   {
     "name": "Gabriola",
@@ -1041,7 +1186,8 @@ const fonts = [
     "notes": "Latin/Greek/Cyrillic",
     "mac": "",
     "win": "7",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Gadget",
@@ -1050,7 +1196,8 @@ const fonts = [
     "notes": "Classic only",
     "mac": "10.7",
     "win": "",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Gadugi",
@@ -1059,7 +1206,8 @@ const fonts = [
     "notes": "Cherokee, Unified Canadian Aboriginal Syllabics",
     "mac": "",
     "win": "8",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Gautami",
@@ -1068,7 +1216,8 @@ const fonts = [
     "notes": "Telugu",
     "mac": "",
     "win": "XP",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Geeza Pro",
@@ -1077,7 +1226,8 @@ const fonts = [
     "notes": "Arabic",
     "mac": "10.7",
     "win": "",
-    "ios": "3.0"
+    "ios": "3.0",
+    "android": ""
   },
   {
     "name": "Geeza Pro",
@@ -1086,7 +1236,8 @@ const fonts = [
     "notes": "Arabic",
     "mac": "",
     "win": "",
-    "ios": "7.0"
+    "ios": "7.0",
+    "android": ""
   },
   {
     "name": "Geezah",
@@ -1095,7 +1246,8 @@ const fonts = [
     "notes": "Arabic",
     "mac": "10.7",
     "win": "",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Geneva",
@@ -1104,7 +1256,8 @@ const fonts = [
     "notes": "",
     "mac": "10.7",
     "win": "",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Geneva CY",
@@ -1113,7 +1266,8 @@ const fonts = [
     "notes": "Cyrillic",
     "mac": "10.7",
     "win": "",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Georgia",
@@ -1122,7 +1276,8 @@ const fonts = [
     "notes": "Latin/Greek/Cyrillic",
     "mac": "10.7",
     "win": "2000",
-    "ios": "2.0"
+    "ios": "2.0",
+    "android": ""
   },
   {
     "name": "Georgia Pro",
@@ -1131,7 +1286,8 @@ const fonts = [
     "notes": "Latin/Greek/Cyrillic",
     "mac": "",
     "win": "10",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Gill Sans",
@@ -1140,7 +1296,8 @@ const fonts = [
     "notes": "",
     "mac": "10.7",
     "win": "",
-    "ios": "3.0"
+    "ios": "3.0",
+    "android": ""
   },
   {
     "name": "Gill Sans",
@@ -1149,7 +1306,8 @@ const fonts = [
     "notes": "",
     "mac": "10.7",
     "win": "",
-    "ios": "5.0"
+    "ios": "5.0",
+    "android": ""
   },
   {
     "name": "Gill Sans",
@@ -1158,7 +1316,8 @@ const fonts = [
     "notes": "",
     "mac": "",
     "win": "",
-    "ios": "9.0"
+    "ios": "9.0",
+    "android": ""
   },
   {
     "name": "Gill Sans Nova",
@@ -1167,7 +1326,8 @@ const fonts = [
     "notes": "Latin/Greek/Cyrillic",
     "mac": "",
     "win": "10",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Gisha",
@@ -1176,7 +1336,8 @@ const fonts = [
     "notes": "Hebrew",
     "mac": "",
     "win": "",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Gujarati",
@@ -1185,7 +1346,8 @@ const fonts = [
     "notes": "Gujarati",
     "mac": "10.7",
     "win": "",
-    "ios": "4.0"
+    "ios": "4.0",
+    "android": ""
   },
   {
     "name": "Gulim",
@@ -1194,7 +1356,8 @@ const fonts = [
     "notes": "Korean",
     "mac": "",
     "win": "",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "GulimChe",
@@ -1203,7 +1366,8 @@ const fonts = [
     "notes": "Korean",
     "mac": "",
     "win": "",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Gung Seoche",
@@ -1212,7 +1376,8 @@ const fonts = [
     "notes": "Korean, named \"#GungSeo\" in font list",
     "mac": "10.7",
     "win": "",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Gungsuh",
@@ -1221,7 +1386,8 @@ const fonts = [
     "notes": "Korean",
     "mac": "",
     "win": "",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "GungsuhChe",
@@ -1230,7 +1396,8 @@ const fonts = [
     "notes": "Korean",
     "mac": "",
     "win": "",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Gurmukhi",
@@ -1239,7 +1406,8 @@ const fonts = [
     "notes": "Gurmukhi",
     "mac": "10.7",
     "win": "",
-    "ios": "4.0"
+    "ios": "4.0",
+    "android": ""
   },
   {
     "name": "Hangangche",
@@ -1248,7 +1416,8 @@ const fonts = [
     "notes": "Korean",
     "mac": "10.7",
     "win": "",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "HeadlineA",
@@ -1257,7 +1426,8 @@ const fonts = [
     "notes": "Korean, named \"#HeadLineA\" in font list",
     "mac": "10.7",
     "win": "",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Hei",
@@ -1266,7 +1436,8 @@ const fonts = [
     "notes": "Simplified Chinese",
     "mac": "10.7",
     "win": "",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Heiti SC",
@@ -1275,7 +1446,8 @@ const fonts = [
     "notes": "",
     "mac": "",
     "win": "",
-    "ios": "3.0"
+    "ios": "3.0",
+    "android": ""
   },
   {
     "name": "Heiti TC",
@@ -1284,7 +1456,8 @@ const fonts = [
     "notes": "",
     "mac": "",
     "win": "",
-    "ios": "3.0"
+    "ios": "3.0",
+    "android": ""
   },
   {
     "name": "Helvetica",
@@ -1293,7 +1466,8 @@ const fonts = [
     "notes": "System Font for Small Text",
     "mac": "10.7",
     "win": "",
-    "ios": "2.0"
+    "ios": "2.0",
+    "android": ""
   },
   {
     "name": "Helvetica",
@@ -1302,7 +1476,8 @@ const fonts = [
     "notes": "",
     "mac": "",
     "win": "",
-    "ios": "5.0"
+    "ios": "5.0",
+    "android": ""
   },
   {
     "name": "Helvetica CY",
@@ -1311,7 +1486,8 @@ const fonts = [
     "notes": "Cyrillic; Face is condensed compared to Helvetica, Helvetica Neue",
     "mac": "10.7",
     "win": "",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Helvetica Neue",
@@ -1320,7 +1496,8 @@ const fonts = [
     "notes": "",
     "mac": "10.7",
     "win": "",
-    "ios": "3.0"
+    "ios": "3.0",
+    "android": ""
   },
   {
     "name": "Helvetica Neue",
@@ -1329,7 +1506,8 @@ const fonts = [
     "notes": "",
     "mac": "10.7",
     "win": "",
-    "ios": "3.2"
+    "ios": "3.2",
+    "android": ""
   },
   {
     "name": "Helvetica Neue",
@@ -1338,7 +1516,8 @@ const fonts = [
     "notes": "",
     "mac": "10.7",
     "win": "",
-    "ios": "5.0"
+    "ios": "5.0",
+    "android": ""
   },
   {
     "name": "Helvetica Neue",
@@ -1347,7 +1526,8 @@ const fonts = [
     "notes": "",
     "mac": "10.7",
     "win": "",
-    "ios": "7.0"
+    "ios": "7.0",
+    "android": ""
   },
   {
     "name": "Herculanum",
@@ -1356,7 +1536,8 @@ const fonts = [
     "notes": "",
     "mac": "10.7",
     "win": "",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Hiragino Kaku Gothic Pro",
@@ -1365,7 +1546,8 @@ const fonts = [
     "notes": "Japanese",
     "mac": "10.7",
     "win": "",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Hiragino Kaku Gothic ProN",
@@ -1374,7 +1556,8 @@ const fonts = [
     "notes": "Japanese based on JIS X 0213",
     "mac": "10.7",
     "win": "",
-    "ios": "3.0"
+    "ios": "3.0",
+    "android": ""
   },
   {
     "name": "Hiragino Kaku Gothic Std",
@@ -1383,7 +1566,8 @@ const fonts = [
     "notes": "Japanese",
     "mac": "10.7",
     "win": "",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Hiragino Kaku Gothic StdN",
@@ -1392,7 +1576,8 @@ const fonts = [
     "notes": "Japanese based on JIS X 0213",
     "mac": "10.7",
     "win": "",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Hiragino Maru Gothic Pro",
@@ -1401,7 +1586,8 @@ const fonts = [
     "notes": "Japanese",
     "mac": "10.7",
     "win": "",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Hiragino Maru Gothic ProN",
@@ -1410,7 +1596,8 @@ const fonts = [
     "notes": "Japanese based on JIS X 0213",
     "mac": "10.7",
     "win": "",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Hiragino Mincho Pro",
@@ -1419,7 +1606,8 @@ const fonts = [
     "notes": "Japanese",
     "mac": "10.7",
     "win": "",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Hiragino Mincho ProN",
@@ -1428,7 +1616,8 @@ const fonts = [
     "notes": "Japanese based on JIS X 0213",
     "mac": "10.7",
     "win": "",
-    "ios": "3.2"
+    "ios": "3.2",
+    "android": ""
   },
   {
     "name": "Hiragino Sans",
@@ -1437,7 +1626,8 @@ const fonts = [
     "notes": "",
     "mac": "",
     "win": "",
-    "ios": "9.0"
+    "ios": "9.0",
+    "android": ""
   },
   {
     "name": "Hoefler Text",
@@ -1446,7 +1636,8 @@ const fonts = [
     "notes": "Re‐added in 10.3, but present in System 7.5 also",
     "mac": "10.7",
     "win": "",
-    "ios": "3.2"
+    "ios": "3.2",
+    "android": ""
   },
   {
     "name": "Impact",
@@ -1455,7 +1646,8 @@ const fonts = [
     "notes": "Latin/Greek/Cyrillic",
     "mac": "10.7",
     "win": "98",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Inai Mathi",
@@ -1464,7 +1656,8 @@ const fonts = [
     "notes": "Tamil; added in 10.4",
     "mac": "10.7",
     "win": "",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Iowan",
@@ -1473,7 +1666,8 @@ const fonts = [
     "notes": "",
     "mac": "",
     "win": "",
-    "ios": "7.0"
+    "ios": "7.0",
+    "android": ""
   },
   {
     "name": "IrisUPC",
@@ -1482,7 +1676,8 @@ const fonts = [
     "notes": "Thai",
     "mac": "",
     "win": "",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Iskoola Pota",
@@ -1491,7 +1686,8 @@ const fonts = [
     "notes": "Sinhala",
     "mac": "",
     "win": "",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "ITC Bodoni 72",
@@ -1500,7 +1696,8 @@ const fonts = [
     "notes": "",
     "mac": "10.10",
     "win": "",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "ITF Devanagari",
@@ -1509,7 +1706,8 @@ const fonts = [
     "notes": "",
     "mac": "10.10",
     "win": "",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "JasmineUPC",
@@ -1518,7 +1716,8 @@ const fonts = [
     "notes": "Thai",
     "mac": "",
     "win": "",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Javanese Text",
@@ -1527,7 +1726,8 @@ const fonts = [
     "notes": "Javanese",
     "mac": "",
     "win": "8.1",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Jung Gothic",
@@ -1536,7 +1736,8 @@ const fonts = [
     "notes": "Korean",
     "mac": "10.7",
     "win": "",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Kai",
@@ -1545,7 +1746,8 @@ const fonts = [
     "notes": "Simplified Chinese",
     "mac": "10.7",
     "win": "",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Kailasa",
@@ -1554,7 +1756,8 @@ const fonts = [
     "notes": "",
     "mac": "",
     "win": "",
-    "ios": "4.0"
+    "ios": "4.0",
+    "android": ""
   },
   {
     "name": "KaiTi",
@@ -1563,7 +1766,8 @@ const fonts = [
     "notes": "Simplified Chinese",
     "mac": "",
     "win": "7",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Kalinga",
@@ -1572,7 +1776,8 @@ const fonts = [
     "notes": "Oriya",
     "mac": "",
     "win": "",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Kannada Sangam MN",
@@ -1581,7 +1786,8 @@ const fonts = [
     "notes": "",
     "mac": "",
     "win": "",
-    "ios": "4.0"
+    "ios": "4.0",
+    "android": ""
   },
   {
     "name": "Kartika",
@@ -1590,7 +1796,8 @@ const fonts = [
     "notes": "Malayalam",
     "mac": "",
     "win": "",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Keyboard",
@@ -1599,7 +1806,8 @@ const fonts = [
     "notes": "",
     "mac": "10.7",
     "win": "",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Khmer Sangam MN",
@@ -1608,7 +1816,8 @@ const fonts = [
     "notes": "",
     "mac": "",
     "win": "",
-    "ios": "8.0"
+    "ios": "8.0",
+    "android": ""
   },
   {
     "name": "Khmer UI",
@@ -1617,7 +1826,8 @@ const fonts = [
     "notes": "Khmer",
     "mac": "",
     "win": "",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "KodchiangUPC",
@@ -1626,7 +1836,8 @@ const fonts = [
     "notes": "Thai",
     "mac": "",
     "win": "",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Kohinoor Bangla",
@@ -1635,7 +1846,8 @@ const fonts = [
     "notes": "",
     "mac": "",
     "win": "",
-    "ios": "9.0"
+    "ios": "9.0",
+    "android": ""
   },
   {
     "name": "Kohinoor Devanagari",
@@ -1644,7 +1856,8 @@ const fonts = [
     "notes": "",
     "mac": "10.10",
     "win": "",
-    "ios": "8.0"
+    "ios": "8.0",
+    "android": ""
   },
   {
     "name": "Kohinoor Devanagari",
@@ -1653,7 +1866,8 @@ const fonts = [
     "notes": "",
     "mac": "",
     "win": "",
-    "ios": "9.0"
+    "ios": "9.0",
+    "android": ""
   },
   {
     "name": "Kohinoor Devanagari",
@@ -1662,7 +1876,8 @@ const fonts = [
     "notes": "",
     "mac": "10.10",
     "win": "",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Kohinoor Telugu",
@@ -1671,7 +1886,8 @@ const fonts = [
     "notes": "",
     "mac": "",
     "win": "",
-    "ios": "9.0"
+    "ios": "9.0",
+    "android": ""
   },
   {
     "name": "Kokila",
@@ -1680,7 +1896,8 @@ const fonts = [
     "notes": "Devanagari",
     "mac": "",
     "win": "7",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Krungthep",
@@ -1689,7 +1906,8 @@ const fonts = [
     "notes": "Thai; Latin characters identical to Chicago",
     "mac": "10.7",
     "win": "",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "KufiStandard GK",
@@ -1698,7 +1916,8 @@ const fonts = [
     "notes": "Arabic",
     "mac": "10.7",
     "win": "",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Lao Sangam MN",
@@ -1707,7 +1926,8 @@ const fonts = [
     "notes": "",
     "mac": "",
     "win": "",
-    "ios": "8.0"
+    "ios": "8.0",
+    "android": ""
   },
   {
     "name": "Lao UI",
@@ -1716,7 +1936,8 @@ const fonts = [
     "notes": "Lao",
     "mac": "",
     "win": "7",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "LastResort",
@@ -1725,7 +1946,8 @@ const fonts = [
     "notes": "",
     "mac": "10.7",
     "win": "",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Latha",
@@ -1734,7 +1956,8 @@ const fonts = [
     "notes": "Tamil",
     "mac": "",
     "win": "XP",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Leelawadee",
@@ -1743,7 +1966,8 @@ const fonts = [
     "notes": "Thai",
     "mac": "",
     "win": "",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Leelawadee UI",
@@ -1752,7 +1976,8 @@ const fonts = [
     "notes": "Buginese, Thai, Javanese, Khmer, Lao",
     "mac": "",
     "win": "8.1",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Levenim MT",
@@ -1761,7 +1986,8 @@ const fonts = [
     "notes": "Hebrew",
     "mac": "",
     "win": "",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "LiHei Pro",
@@ -1770,7 +1996,8 @@ const fonts = [
     "notes": "Traditional Chinese",
     "mac": "10.7",
     "win": "",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "LilyUPC",
@@ -1779,7 +2006,8 @@ const fonts = [
     "notes": "Thai",
     "mac": "",
     "win": "",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "LiSong Pro",
@@ -1788,7 +2016,8 @@ const fonts = [
     "notes": "",
     "mac": "10.7",
     "win": "",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Lucida Console",
@@ -1797,7 +2026,8 @@ const fonts = [
     "notes": "Latin/Greek/Cyrillic",
     "mac": "",
     "win": "98",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Lucida Grande",
@@ -1806,7 +2036,8 @@ const fonts = [
     "notes": "Main System Font in Mac OS X",
     "mac": "10.7",
     "win": "",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Lucida Handwriting Italic",
@@ -1815,7 +2046,8 @@ const fonts = [
     "notes": "Latin/Greek/Cyrillic",
     "mac": "",
     "win": "98",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Lucida Sans Unicode",
@@ -1824,7 +2056,8 @@ const fonts = [
     "notes": "Latin/Greek/Cyrillic, Hebrew",
     "mac": "",
     "win": "98",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Luminari",
@@ -1833,7 +2066,8 @@ const fonts = [
     "notes": "",
     "mac": "10.10",
     "win": "",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Malayalam Sangam MN",
@@ -1842,7 +2076,8 @@ const fonts = [
     "notes": "",
     "mac": "",
     "win": "",
-    "ios": "4.0"
+    "ios": "4.0",
+    "android": ""
   },
   {
     "name": "Malgun Gothic",
@@ -1851,7 +2086,8 @@ const fonts = [
     "notes": "Korean (no Hanja before Windowd 8)",
     "mac": "",
     "win": "Vista",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Mangal",
@@ -1860,7 +2096,8 @@ const fonts = [
     "notes": "Devanagari",
     "mac": "",
     "win": "",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Manny ITC",
@@ -1869,7 +2106,8 @@ const fonts = [
     "notes": "Latin",
     "mac": "",
     "win": "1997",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Marion",
@@ -1878,7 +2116,8 @@ const fonts = [
     "notes": "",
     "mac": "",
     "win": "",
-    "ios": "5.0"
+    "ios": "5.0",
+    "android": ""
   },
   {
     "name": "Marker Felt",
@@ -1887,7 +2126,8 @@ const fonts = [
     "notes": "",
     "mac": "10.7",
     "win": "",
-    "ios": "2.0"
+    "ios": "2.0",
+    "android": ""
   },
   {
     "name": "Marker Felt",
@@ -1896,7 +2136,8 @@ const fonts = [
     "notes": "",
     "mac": "10.7",
     "win": "",
-    "ios": "3.2"
+    "ios": "3.2",
+    "android": ""
   },
   {
     "name": "Marlett",
@@ -1905,7 +2146,8 @@ const fonts = [
     "notes": "Windows Interface",
     "mac": "",
     "win": "95",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Meiryo",
@@ -1914,7 +2156,8 @@ const fonts = [
     "notes": "Japanese",
     "mac": "",
     "win": "Vista",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Meiryo UI",
@@ -1923,7 +2166,8 @@ const fonts = [
     "notes": "Japanese",
     "mac": "",
     "win": "7",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Menlo",
@@ -1932,7 +2176,8 @@ const fonts = [
     "notes": "",
     "mac": "10.7",
     "win": "",
-    "ios": "7.0"
+    "ios": "7.0",
+    "android": ""
   },
   {
     "name": "Microsoft Himalaya",
@@ -1941,7 +2186,8 @@ const fonts = [
     "notes": "Tibetan",
     "mac": "",
     "win": "Vista",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Microsoft JhengHei",
@@ -1950,7 +2196,8 @@ const fonts = [
     "notes": "Traditional Chinese",
     "mac": "",
     "win": "Vista",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Microsoft JhengHei UI",
@@ -1959,7 +2206,8 @@ const fonts = [
     "notes": "Traditional Chinese",
     "mac": "",
     "win": "8",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Microsoft New Tai Lue",
@@ -1968,7 +2216,8 @@ const fonts = [
     "notes": "New Tai Lue",
     "mac": "",
     "win": "7",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Microsoft PhagsPa",
@@ -1977,7 +2226,8 @@ const fonts = [
     "notes": "Phags-pa",
     "mac": "",
     "win": "7",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Microsoft Sans Serif",
@@ -1986,7 +2236,8 @@ const fonts = [
     "notes": "Latin/Greek/Cyrillic, Arabic, Hebrew, Thai",
     "mac": "",
     "win": "",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Microsoft Tai Le",
@@ -1995,7 +2246,8 @@ const fonts = [
     "notes": "Tai Nüa",
     "mac": "",
     "win": "7",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Microsoft Uighur",
@@ -2004,7 +2256,8 @@ const fonts = [
     "notes": "Uighur",
     "mac": "",
     "win": "",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Microsoft YaHei",
@@ -2013,7 +2266,8 @@ const fonts = [
     "notes": "Simplified Chinese",
     "mac": "",
     "win": "Vista",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Microsoft YaHei UI",
@@ -2022,7 +2276,8 @@ const fonts = [
     "notes": "Simplified Chinese",
     "mac": "",
     "win": "8",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Microsoft Yi Baiti",
@@ -2031,7 +2286,8 @@ const fonts = [
     "notes": "Yi",
     "mac": "",
     "win": "",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "MingLiU_HKSCS",
@@ -2040,7 +2296,8 @@ const fonts = [
     "notes": "Cantonese",
     "mac": "",
     "win": "",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "MingLiU_HKSCS-ExtB",
@@ -2049,7 +2306,8 @@ const fonts = [
     "notes": "Cantonese",
     "mac": "",
     "win": "",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "MingLiU-ExtB, PMingLiU-ExtB",
@@ -2058,7 +2316,8 @@ const fonts = [
     "notes": "Traditional Chinese",
     "mac": "",
     "win": "",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "MingLiU, PMingLiU",
@@ -2067,7 +2326,8 @@ const fonts = [
     "notes": "Traditional Chinese",
     "mac": "",
     "win": "",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Miriam, Miriam Fixed",
@@ -2076,7 +2336,8 @@ const fonts = [
     "notes": "Hebrew",
     "mac": "",
     "win": "",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Monaco",
@@ -2085,7 +2346,8 @@ const fonts = [
     "notes": "",
     "mac": "10.7",
     "win": "",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Monaco CY",
@@ -2094,7 +2356,8 @@ const fonts = [
     "notes": "Cyrillic",
     "mac": "10.7",
     "win": "",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Mongolian Baiti",
@@ -2103,7 +2366,8 @@ const fonts = [
     "notes": "Mongolian/Manchu/Xibo",
     "mac": "",
     "win": "Vista",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Monotype LingWai",
@@ -2112,7 +2376,8 @@ const fonts = [
     "notes": "",
     "mac": "10.12",
     "win": "",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "MoolBoran",
@@ -2121,7 +2386,8 @@ const fonts = [
     "notes": "Khmer",
     "mac": "",
     "win": "",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "MS Gothic, MS PGothic",
@@ -2130,7 +2396,8 @@ const fonts = [
     "notes": "Japanese",
     "mac": "",
     "win": "",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "MS Mincho, MS PMincho",
@@ -2139,7 +2406,8 @@ const fonts = [
     "notes": "Japanese",
     "mac": "",
     "win": "",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "MS UI Gothic",
@@ -2148,7 +2416,8 @@ const fonts = [
     "notes": "Japanese",
     "mac": "",
     "win": "",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Mshtakan",
@@ -2157,7 +2426,8 @@ const fonts = [
     "notes": "Armenian; added in 10.3",
     "mac": "10.7",
     "win": "",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "MV Boli",
@@ -2166,7 +2436,8 @@ const fonts = [
     "notes": "Thaana",
     "mac": "",
     "win": "",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Myanmar Sangam MN",
@@ -2175,7 +2446,8 @@ const fonts = [
     "notes": "",
     "mac": "",
     "win": "",
-    "ios": "10.0"
+    "ios": "10.0",
+    "android": ""
   },
   {
     "name": "Myanmar Text",
@@ -2184,7 +2456,8 @@ const fonts = [
     "notes": "Myanmar",
     "mac": "",
     "win": "8",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Nadeem",
@@ -2193,7 +2466,8 @@ const fonts = [
     "notes": "Arabic",
     "mac": "10.7",
     "win": "",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Narkisim",
@@ -2202,7 +2476,8 @@ const fonts = [
     "notes": "Hebrew",
     "mac": "",
     "win": "",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Neue Haas Grotesk Text Pro",
@@ -2211,7 +2486,8 @@ const fonts = [
     "notes": "Latin",
     "mac": "",
     "win": "10",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "New Peninim",
@@ -2220,7 +2496,8 @@ const fonts = [
     "notes": "Hebrew",
     "mac": "10.7",
     "win": "",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "New York",
@@ -2229,7 +2506,8 @@ const fonts = [
     "notes": "Classic only",
     "mac": "10.7",
     "win": "",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "News Gothic MT",
@@ -2238,7 +2516,8 @@ const fonts = [
     "notes": "Latin/Greek/Cyrillic",
     "mac": "",
     "win": "98",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Nirmala UI",
@@ -2247,7 +2526,8 @@ const fonts = [
     "notes": "Devanagari, Bengali, Gurmukhi, Gujarati, Oriya, Tamil, Telugu, Kannada, Malayalam, Sinhala",
     "mac": "",
     "win": "8",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "NISC GB18030",
@@ -2256,7 +2536,8 @@ const fonts = [
     "notes": "Chinese; bitmap only; named \"GB18030 Bitmap\" in font lists",
     "mac": "10.7",
     "win": "",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Noteworthy",
@@ -2265,7 +2546,18 @@ const fonts = [
     "notes": "",
     "mac": "",
     "win": "",
-    "ios": "5.0"
+    "ios": "5.0",
+    "android": ""
+  },
+  {
+    "name": "Noto",
+    "subtype": "",
+    "styles": "",
+    "notes": "",
+    "mac": "",
+    "win": "",
+    "ios": "",
+    "android": "2.2"
   },
   {
     "name": "NSimSun",
@@ -2274,7 +2566,8 @@ const fonts = [
     "notes": "Simplified Chinese",
     "mac": "",
     "win": "",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Nyala",
@@ -2283,7 +2576,8 @@ const fonts = [
     "notes": "Ethiopic",
     "mac": "",
     "win": "Vista",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Optima",
@@ -2292,7 +2586,8 @@ const fonts = [
     "notes": "",
     "mac": "10.7",
     "win": "",
-    "ios": "3.2"
+    "ios": "3.2",
+    "android": ""
   },
   {
     "name": "Optima",
@@ -2301,7 +2596,8 @@ const fonts = [
     "notes": "",
     "mac": "10.7",
     "win": "",
-    "ios": "4.0"
+    "ios": "4.0",
+    "android": ""
   },
   {
     "name": "Oriya Sangam MN",
@@ -2310,7 +2606,8 @@ const fonts = [
     "notes": "",
     "mac": "",
     "win": "",
-    "ios": "4.0"
+    "ios": "4.0",
+    "android": ""
   },
   {
     "name": "Osaka",
@@ -2319,7 +2616,8 @@ const fonts = [
     "notes": "Japanese",
     "mac": "10.7",
     "win": "",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Palatino",
@@ -2328,7 +2626,8 @@ const fonts = [
     "notes": "Classic or iLife",
     "mac": "10.7",
     "win": "",
-    "ios": "4.0"
+    "ios": "4.0",
+    "android": ""
   },
   {
     "name": "Palatino Linotype",
@@ -2337,7 +2636,8 @@ const fonts = [
     "notes": "Latin/Greek/Cyrillic",
     "mac": "",
     "win": "2000",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Papyrus",
@@ -2346,7 +2646,8 @@ const fonts = [
     "notes": "May God have mercy on your soul",
     "mac": "10.7",
     "win": "",
-    "ios": "3.2"
+    "ios": "3.2",
+    "android": ""
   },
   {
     "name": "Papyrus Condensed",
@@ -2355,7 +2656,8 @@ const fonts = [
     "notes": "",
     "mac": "",
     "win": "",
-    "ios": "4.0"
+    "ios": "4.0",
+    "android": ""
   },
   {
     "name": "Party LET Plain",
@@ -2364,7 +2666,8 @@ const fonts = [
     "notes": "",
     "mac": "",
     "win": "",
-    "ios": "3.2"
+    "ios": "3.2",
+    "android": ""
   },
   {
     "name": "PC Myungjo",
@@ -2373,7 +2676,8 @@ const fonts = [
     "notes": "Korean, named \"#PCMyungjo\" in font list",
     "mac": "10.7",
     "win": "",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Phosphate",
@@ -2382,7 +2686,8 @@ const fonts = [
     "notes": "",
     "mac": "10.10",
     "win": "",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Pilgiche",
@@ -2391,7 +2696,8 @@ const fonts = [
     "notes": "Korean, named \"#PilGi\" in font list",
     "mac": "10.7",
     "win": "",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "PingFang HK",
@@ -2400,7 +2706,8 @@ const fonts = [
     "notes": "Chinese",
     "mac": "10.11",
     "win": "",
-    "ios": "9.0"
+    "ios": "9.0",
+    "android": ""
   },
   {
     "name": "PingFang SC",
@@ -2409,7 +2716,8 @@ const fonts = [
     "notes": "Chinese",
     "mac": "10.11",
     "win": "",
-    "ios": "9.0"
+    "ios": "9.0",
+    "android": ""
   },
   {
     "name": "PingFang TC",
@@ -2418,7 +2726,8 @@ const fonts = [
     "notes": "Chinese",
     "mac": "10.11",
     "win": "",
-    "ios": "9.0"
+    "ios": "9.0",
+    "android": ""
   },
   {
     "name": "Plantagenet Cherokee",
@@ -2427,7 +2736,8 @@ const fonts = [
     "notes": "Cherokee",
     "mac": "10.7",
     "win": "",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Plantagenet Cherokee",
@@ -2436,7 +2746,8 @@ const fonts = [
     "notes": "Cherokee",
     "mac": "",
     "win": "",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Raanana",
@@ -2445,7 +2756,8 @@ const fonts = [
     "notes": "Hebrew",
     "mac": "10.7",
     "win": "",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Raavi",
@@ -2454,7 +2766,18 @@ const fonts = [
     "notes": "Gurmukhi",
     "mac": "",
     "win": "XP",
-    "ios": ""
+    "ios": "",
+    "android": ""
+  },
+  {
+    "name": "Roboto",
+    "subtype": "",
+    "styles": "Thin, Thin Italic, Light, Light Italic, Regular, Regular Italic, Medium, Medium Italic, Bold, Bold Italic, Black, Black Italic",
+    "notes": "",
+    "mac": "",
+    "win": "",
+    "ios": "",
+    "android": "4.0"
   },
   {
     "name": "Rockwell Nova",
@@ -2463,7 +2786,8 @@ const fonts = [
     "notes": "Latin/Greek/Cyrillic",
     "mac": "",
     "win": "10",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Rod",
@@ -2472,7 +2796,8 @@ const fonts = [
     "notes": "Hebrew",
     "mac": "",
     "win": "",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Sakkal Majalla",
@@ -2481,7 +2806,8 @@ const fonts = [
     "notes": "Arabic",
     "mac": "",
     "win": "7",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "San Francisco",
@@ -2490,7 +2816,8 @@ const fonts = [
     "notes": "",
     "mac": "10.11",
     "win": "",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "San Francisco",
@@ -2499,7 +2826,8 @@ const fonts = [
     "notes": "",
     "mac": "10.12",
     "win": "",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Sand",
@@ -2508,7 +2836,8 @@ const fonts = [
     "notes": "",
     "mac": "10.7",
     "win": "",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Sanskrit Text",
@@ -2517,7 +2846,8 @@ const fonts = [
     "notes": "Devanagari",
     "mac": "",
     "win": "10",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Sathu",
@@ -2526,7 +2856,8 @@ const fonts = [
     "notes": "Thai",
     "mac": "10.7",
     "win": "",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Segoe MDL2 Assets",
@@ -2535,7 +2866,8 @@ const fonts = [
     "notes": "Iconography",
     "mac": "",
     "win": "10",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Segoe Print",
@@ -2544,7 +2876,8 @@ const fonts = [
     "notes": "Latin/Greek/Cyrillic",
     "mac": "",
     "win": "Vista",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Segoe Script",
@@ -2553,7 +2886,8 @@ const fonts = [
     "notes": "Latin/Greek/Cyrillic",
     "mac": "",
     "win": "Vista",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Segoe UI Emoji",
@@ -2562,7 +2896,8 @@ const fonts = [
     "notes": "Emoji, emoticons and symbols",
     "mac": "",
     "win": "10",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Segoe UI Histori [6",
@@ -2571,7 +2906,8 @@ const fonts = [
     "notes": "Historic scripts",
     "mac": "",
     "win": "10",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Segoe UI Symbol",
@@ -2580,7 +2916,8 @@ const fonts = [
     "notes": "Latin/Greek/Cyrillic",
     "mac": "",
     "win": "7",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Segoe UI v5.0 [3",
@@ -2589,7 +2926,8 @@ const fonts = [
     "notes": "Latin/Greek/Cyrillic, Arabic",
     "mac": "",
     "win": "Vista",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Segoe UI v5.0 [4",
@@ -2598,7 +2936,8 @@ const fonts = [
     "notes": "Latin/Greek/Cyrillic, Arabic",
     "mac": "",
     "win": "7",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Segoe UI v5.2 [5",
@@ -2607,7 +2946,8 @@ const fonts = [
     "notes": "Latin/Greek/Cyrillic, Arabic",
     "mac": "",
     "win": "8",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Segoe UI v5.35",
@@ -2616,7 +2956,8 @@ const fonts = [
     "notes": "Latin/Greek/Cyrillic, Arabic, Armenian, Georgian, Hebrew, Lisu",
     "mac": "",
     "win": "8.1",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Seoul",
@@ -2625,7 +2966,8 @@ const fonts = [
     "notes": "Korean",
     "mac": "10.7",
     "win": "",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Shin Myungjo Neue",
@@ -2634,7 +2976,8 @@ const fonts = [
     "notes": "Korean",
     "mac": "10.7",
     "win": "",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Shonar Bangla",
@@ -2643,7 +2986,8 @@ const fonts = [
     "notes": "Bengali",
     "mac": "",
     "win": "7",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Shree Devanagari 714",
@@ -2652,7 +2996,8 @@ const fonts = [
     "notes": "",
     "mac": "10.10",
     "win": "",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Shruti",
@@ -2661,7 +3006,8 @@ const fonts = [
     "notes": "Gujarati",
     "mac": "",
     "win": "XP",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "SignPainter",
@@ -2670,7 +3016,8 @@ const fonts = [
     "notes": "",
     "mac": "10.10",
     "win": "",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Silom",
@@ -2679,7 +3026,8 @@ const fonts = [
     "notes": "Thai",
     "mac": "10.7",
     "win": "",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "SimHei",
@@ -2688,7 +3036,8 @@ const fonts = [
     "notes": "Simplified Chinese",
     "mac": "",
     "win": "",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "SimKai",
@@ -2697,7 +3046,8 @@ const fonts = [
     "notes": "Simplified Chinese",
     "mac": "",
     "win": "",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Simplified Arabic",
@@ -2706,7 +3056,8 @@ const fonts = [
     "notes": "Arabic",
     "mac": "",
     "win": "",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "SimSun",
@@ -2715,7 +3066,8 @@ const fonts = [
     "notes": "Simplified Chinese",
     "mac": "",
     "win": "",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "SimSun-ExtB",
@@ -2724,7 +3076,8 @@ const fonts = [
     "notes": "Simplified Chinese",
     "mac": "",
     "win": "",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Sinhala Sangam MN",
@@ -2733,7 +3086,8 @@ const fonts = [
     "notes": "",
     "mac": "",
     "win": "",
-    "ios": "4.0"
+    "ios": "4.0",
+    "android": ""
   },
   {
     "name": "Sitka Banner",
@@ -2742,7 +3096,8 @@ const fonts = [
     "notes": "Latin/Greek/Cyrillic",
     "mac": "",
     "win": "8.1",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Sitka Display",
@@ -2751,7 +3106,8 @@ const fonts = [
     "notes": "Latin/Greek/Cyrillic",
     "mac": "",
     "win": "8.1",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Sitka Heading",
@@ -2760,7 +3116,8 @@ const fonts = [
     "notes": "Latin/Greek/Cyrillic",
     "mac": "",
     "win": "8.1",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Sitka Small",
@@ -2769,7 +3126,8 @@ const fonts = [
     "notes": "Latin/Greek/Cyrillic",
     "mac": "",
     "win": "8.1",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Sitka Subheading",
@@ -2778,7 +3136,8 @@ const fonts = [
     "notes": "Latin/Greek/Cyrillic",
     "mac": "",
     "win": "8.1",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Sitka Text",
@@ -2787,7 +3146,8 @@ const fonts = [
     "notes": "Latin/Greek/Cyrillic",
     "mac": "",
     "win": "8.1",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Skia",
@@ -2796,7 +3156,8 @@ const fonts = [
     "notes": "",
     "mac": "10.7",
     "win": "",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Skia",
@@ -2805,7 +3166,8 @@ const fonts = [
     "notes": "",
     "mac": "10.7",
     "win": "",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Snell Roundhand",
@@ -2814,7 +3176,8 @@ const fonts = [
     "notes": "",
     "mac": "",
     "win": "",
-    "ios": "3.2"
+    "ios": "3.2",
+    "android": ""
   },
   {
     "name": "Snell Roundhand",
@@ -2823,7 +3186,8 @@ const fonts = [
     "notes": "",
     "mac": "",
     "win": "",
-    "ios": "4.0"
+    "ios": "4.0",
+    "android": ""
   },
   {
     "name": "Song",
@@ -2832,7 +3196,8 @@ const fonts = [
     "notes": "Simplified Chinese",
     "mac": "10.7",
     "win": "",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "ST FangSong",
@@ -2841,7 +3206,8 @@ const fonts = [
     "notes": "Simplified Chinese",
     "mac": "10.7",
     "win": "",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "ST Heiti",
@@ -2850,7 +3216,8 @@ const fonts = [
     "notes": "Simplified Chinese",
     "mac": "10.7",
     "win": "",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "ST Kaiti",
@@ -2859,7 +3226,8 @@ const fonts = [
     "notes": "Simplified Chinese",
     "mac": "10.7",
     "win": "",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "ST Song",
@@ -2868,7 +3236,8 @@ const fonts = [
     "notes": "Simplified Chinese",
     "mac": "10.7",
     "win": "",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Sukhumvit Set",
@@ -2877,7 +3246,8 @@ const fonts = [
     "notes": "",
     "mac": "10.10",
     "win": "",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Superclarendon",
@@ -2886,7 +3256,8 @@ const fonts = [
     "notes": "",
     "mac": "",
     "win": "",
-    "ios": "7.0"
+    "ios": "7.0",
+    "android": ""
   },
   {
     "name": "Sylfaen",
@@ -2895,7 +3266,8 @@ const fonts = [
     "notes": "Armenian, Georgian",
     "mac": "",
     "win": "",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Symbol",
@@ -2904,7 +3276,8 @@ const fonts = [
     "notes": "",
     "mac": "10.7",
     "win": "3.1",
-    "ios": "6.0"
+    "ios": "6.0",
+    "android": ""
   },
   {
     "name": "Tae Graphic",
@@ -2913,7 +3286,8 @@ const fonts = [
     "notes": "Korean",
     "mac": "10.7",
     "win": "",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Tahoma",
@@ -2922,7 +3296,8 @@ const fonts = [
     "notes": "Latin/Greek/Cyrillic, Arabic, Hebrew, Thai",
     "mac": "10.7",
     "win": "95",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Taipei",
@@ -2931,7 +3306,8 @@ const fonts = [
     "notes": "Traditional Chinese; bitmap only",
     "mac": "10.7",
     "win": "",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Tamil Sangam MN",
@@ -2940,7 +3316,8 @@ const fonts = [
     "notes": "",
     "mac": "",
     "win": "",
-    "ios": "4.0"
+    "ios": "4.0",
+    "android": ""
   },
   {
     "name": "Techno",
@@ -2949,7 +3326,8 @@ const fonts = [
     "notes": "Classic only",
     "mac": "10.7",
     "win": "",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Telugu Sangam MN",
@@ -2958,7 +3336,8 @@ const fonts = [
     "notes": "",
     "mac": "",
     "win": "",
-    "ios": "4.0"
+    "ios": "4.0",
+    "android": ""
   },
   {
     "name": "Textile",
@@ -2967,7 +3346,8 @@ const fonts = [
     "notes": "Classic (and iDVD)",
     "mac": "10.7",
     "win": "",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Thonburi",
@@ -2976,7 +3356,8 @@ const fonts = [
     "notes": "Thai",
     "mac": "10.7",
     "win": "",
-    "ios": "3.0"
+    "ios": "3.0",
+    "android": ""
   },
   {
     "name": "Thonburi",
@@ -2985,7 +3366,8 @@ const fonts = [
     "notes": "Thai",
     "mac": "10.7",
     "win": "",
-    "ios": "7.0"
+    "ios": "7.0",
+    "android": ""
   },
   {
     "name": "Times",
@@ -2994,7 +3376,8 @@ const fonts = [
     "notes": "",
     "mac": "10.7",
     "win": "",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Times CY",
@@ -3003,7 +3386,8 @@ const fonts = [
     "notes": "Cyrillic; removed from 10.4",
     "mac": "10.7",
     "win": "",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Times New Roman",
@@ -3012,7 +3396,8 @@ const fonts = [
     "notes": "Latin/Greek/Cyrillic, Arabic, Hebrew, Armenian",
     "mac": "10.7",
     "win": "3.1",
-    "ios": "2.0"
+    "ios": "2.0",
+    "android": ""
   },
   {
     "name": "Toppan Bunkyu Gothic Pr6N",
@@ -3021,7 +3406,8 @@ const fonts = [
     "notes": "",
     "mac": "10.12",
     "win": "",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Toppan Bunkyu Midashi Gothic StdN",
@@ -3030,7 +3416,8 @@ const fonts = [
     "notes": "",
     "mac": "10.12",
     "win": "",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Toppan Bunkyu Midashi Minchoi StdN",
@@ -3039,7 +3426,8 @@ const fonts = [
     "notes": "",
     "mac": "10.12",
     "win": "",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Toppan Bunkyu Mincho Pr6N",
@@ -3048,7 +3436,8 @@ const fonts = [
     "notes": "",
     "mac": "10.12",
     "win": "",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Traditional Arabic",
@@ -3057,7 +3446,8 @@ const fonts = [
     "notes": "Arabic",
     "mac": "",
     "win": "2000",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Trattatello",
@@ -3066,7 +3456,8 @@ const fonts = [
     "notes": "",
     "mac": "10.10",
     "win": "",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Trebuchet MS",
@@ -3075,7 +3466,8 @@ const fonts = [
     "notes": "Latin/Greek/Cyrillic",
     "mac": "10.7",
     "win": "2000",
-    "ios": "2.0"
+    "ios": "2.0",
+    "android": ""
   },
   {
     "name": "Tunga",
@@ -3084,7 +3476,8 @@ const fonts = [
     "notes": "Kannada",
     "mac": "",
     "win": "XP",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Urdu Typesetting",
@@ -3093,7 +3486,8 @@ const fonts = [
     "notes": "Arabic",
     "mac": "",
     "win": "",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Utsaah",
@@ -3102,7 +3496,8 @@ const fonts = [
     "notes": "Devanagari",
     "mac": "",
     "win": "",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Vani",
@@ -3111,7 +3506,8 @@ const fonts = [
     "notes": "Telugu",
     "mac": "",
     "win": "",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Verdana",
@@ -3120,7 +3516,8 @@ const fonts = [
     "notes": "Latin/Greek/Cyrillic",
     "mac": "10.7",
     "win": "95",
-    "ios": "2.0"
+    "ios": "2.0",
+    "android": ""
   },
   {
     "name": "Verdana Pro",
@@ -3129,7 +3526,8 @@ const fonts = [
     "notes": "Latin/Greek/Cyrillic",
     "mac": "",
     "win": "10",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Vijaya",
@@ -3138,7 +3536,8 @@ const fonts = [
     "notes": "Tamil",
     "mac": "",
     "win": "",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Vrinda",
@@ -3147,7 +3546,8 @@ const fonts = [
     "notes": "Bengali",
     "mac": "",
     "win": "XP",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Webdings",
@@ -3156,7 +3556,8 @@ const fonts = [
     "notes": "",
     "mac": "",
     "win": "98",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Westminster",
@@ -3165,7 +3566,8 @@ const fonts = [
     "notes": "Latin/Greek/Cyrillic",
     "mac": "",
     "win": "98",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Wingdings",
@@ -3174,7 +3576,8 @@ const fonts = [
     "notes": "",
     "mac": "",
     "win": "3.1",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Yu Gothic",
@@ -3183,7 +3586,8 @@ const fonts = [
     "notes": "Japanese",
     "mac": "",
     "win": "8.1",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Yu Gothic UI",
@@ -3192,7 +3596,8 @@ const fonts = [
     "notes": "Japanese",
     "mac": "",
     "win": "8.1",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Yu Kyokasho N",
@@ -3201,7 +3606,8 @@ const fonts = [
     "notes": "Vertical Version / Horizontal Version",
     "mac": "10.12",
     "win": "",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Yu Mincho",
@@ -3210,7 +3616,8 @@ const fonts = [
     "notes": "Japanese",
     "mac": "",
     "win": "8.1",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Zapf Chancery",
@@ -3219,7 +3626,8 @@ const fonts = [
     "notes": "Classic only",
     "mac": "10.7",
     "win": "",
-    "ios": ""
+    "ios": "",
+    "android": ""
   },
   {
     "name": "Zapf Dingbats",
@@ -3228,7 +3636,8 @@ const fonts = [
     "notes": "",
     "mac": "10.7",
     "win": "",
-    "ios": "3.2"
+    "ios": "3.2",
+    "android": ""
   },
   {
     "name": "Zapfino",
@@ -3237,6 +3646,7 @@ const fonts = [
     "notes": "",
     "mac": "10.7",
     "win": "",
-    "ios": "2.0"
+    "ios": "2.0",
+    "android": ""
   }
 ];
