@@ -1,4 +1,4 @@
-// base
+// out: ../../styles/site.css
 
 *
   box-sizing border-box
@@ -18,6 +18,9 @@ a
   &:hover
     color #2957a3
 
+.brand-link
+  text-decoration none
+
 h2
   margin 0
   text-align center
@@ -31,6 +34,10 @@ header
   background #f45858
   text-align center
   color #fff
+
+.header--superscribe
+  padding-bottom 1em
+  background #b1e3f1
 
 footer
   position relative
@@ -106,7 +113,11 @@ section
 .product-link
   display inline-block
   margin 1ex 1em
-  vertical-align middle
+  text-decoration none
+  vertical-align top
+
+  > small
+    display block
 
 .drawstring-screenshot
   display block
@@ -130,3 +141,5 @@ section
   background #f45858
   text-align center
   color #fff
+
+@import './superscript-preview.styl'

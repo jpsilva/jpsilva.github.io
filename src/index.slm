@@ -24,7 +24,7 @@ html
     meta name="msapplication-TileImage" content="favicon-144.png"
 
     link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,600"
-    link rel="stylesheet" href="styles/site.css"
+    link rel="stylesheet" href="/styles/site.css"
 
     javascript:
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -57,9 +57,10 @@ html
           panel numbers automatically, as you type.
         p.product-links
           a.product-link href="https://itunes.apple.com/us/app/superscribe/id1193005924?mt=12"
-            img src="/images/app-store-badge.svg" alt="Download from the macOS App Store" width="175"
-        /  a.product-link href=""
-        /    img src="/images/windows-store-badge.png" alt="Download from the Windows App Store" width="150"
+            img src="/images/app-store-badge.svg" alt="Download from the macOS App Store" height="50"
+          a.product-link href="https://www.amazon.com/gp/product/B06WV8MFQZ"
+            img src="/images/amazon-badge.svg" alt="Download from Amazon for Windows 7+" height="50"
+            small for Windows 7+
         img.superscribe-screenshot src="/images/superscribe-screenshot.jpg" alt="Superscript screenshot"
   section.product--summer#summer
     .content
@@ -70,9 +71,9 @@ html
         drunk to add numbers. Keep this on your phone just in case.
       p.product-links
         a.product-link href="https://itunes.apple.com/us/app/summer-scorekeeper/id1191619401?ls=1&mt=8"
-          img src="/images/app-store-badge.svg" alt="Download from the iOS App Store" width="175"
+          img src="/images/app-store-badge.svg" alt="Download from the iOS App Store" height="50"
         a.product-link href="https://play.google.com/store/apps/details?id=com.jpsilva.summer"
-          img src="/images/google-play-badge.png" alt="Download from the Google Play Store" width="200"
+          img src="/images/google-play-badge.png" alt="Download from the Google Play Store" height="50"
       img.summer-screenshot src="/images/summer-screenshot.jpg" alt="Summer screenshot"
     / section.product--drawstring#drawstring
     /   .content

@@ -1,0 +1,81 @@
+// main: site.styl
+
+button
+  font caption
+
+.preview-actions
+  position fixed
+  top 0
+  left 0
+  width 100%
+  padding 10px 10px 8px
+  border-bottom solid 1px WindowFrame
+  background Window
+  color WindowText
+
+.preview
+  max-width 50em
+  margin 0 auto
+  padding 3em 1em 1em
+  background #faf9f7
+  font-size 16px
+
+  .page-heading
+    padding-top 1em
+    border-top dashed 1px #ccc
+
+  dt
+    float left
+    margin-right 1ex
+    text-transform capitalize
+
+    &::after
+      content ':'
+
+  .title
+  .draft
+  .by-line
+    text-align center
+
+  .address
+    white-space pre
+
+  .page-heading
+    page-break-before always
+    font-size 1.5em
+    font-weight bold
+    text-decoration underline
+    text-transform uppercase
+
+  .panel-heading
+    font-size 1.2em
+    font-weight bold
+    text-transform capitalize
+
+  .character
+    position relative
+    width 22%
+    text-transform uppercase
+
+    &::before
+      content attr(number) '. '
+
+  .parenthetical
+    width 22%
+    margin-top 1ex
+    padding-left 3ex
+    text-align right
+
+  .dialog
+    width 75%
+    margin-left 25%
+
+  .character + .dialog
+  .parenthetical + .dialog
+    margin-top -1.5em
+
+  .paragraph
+    min-height 1.5em
+
+  [generated-content]::after
+    content attr(generated-content)

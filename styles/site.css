@@ -16,6 +16,9 @@ a {
 a:hover {
   color: #2957a3;
 }
+.brand-link {
+  text-decoration: none;
+}
 h2 {
   margin: 0;
   text-align: center;
@@ -27,6 +30,10 @@ header {
   background: #f45858;
   text-align: center;
   color: #fff;
+}
+.header--superscribe {
+  padding-bottom: 1em;
+  background: #b1e3f1;
 }
 footer {
   position: relative;
@@ -100,7 +107,11 @@ section {
 .product-link {
   display: inline-block;
   margin: 1ex 1em;
-  vertical-align: middle;
+  text-decoration: none;
+  vertical-align: top;
+}
+.product-link > small {
+  display: block;
 }
 .drawstring-screenshot {
   display: block;
@@ -124,4 +135,84 @@ section {
   background: #f45858;
   text-align: center;
   color: #fff;
+}
+button {
+  font: caption;
+}
+.preview-actions {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px 10px 8px;
+  border-bottom: solid 1px WindowFrame;
+  background: Window;
+  color: WindowText;
+}
+.preview {
+  max-width: 50em;
+  margin: 0 auto;
+  padding: 3em 1em 1em;
+  background: #faf9f7;
+  font-size: 16px;
+}
+.preview .page-heading {
+  padding-top: 1em;
+  border-top: dashed 1px #ccc;
+}
+.preview dt {
+  float: left;
+  margin-right: 1ex;
+  text-transform: capitalize;
+}
+.preview dt::after {
+  content: ':';
+}
+.preview .title,
+.preview .draft,
+.preview .by-line {
+  text-align: center;
+}
+.preview .address {
+  white-space: pre;
+}
+.preview .page-heading {
+  page-break-before: always;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+.preview .panel-heading {
+  font-size: 1.2em;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+.preview .character {
+  position: relative;
+  width: 22%;
+  text-transform: uppercase;
+}
+.preview .character::before {
+  content: attr(number) '. ';
+}
+.preview .parenthetical {
+  width: 22%;
+  margin-top: 1ex;
+  padding-left: 3ex;
+  text-align: right;
+}
+.preview .dialog {
+  width: 75%;
+  margin-left: 25%;
+}
+.preview .character + .dialog,
+.preview .parenthetical + .dialog {
+  margin-top: -1.5em;
+}
+.preview .paragraph {
+  min-height: 1.5em;
+}
+.preview [generated-content]::after {
+  content: attr(generated-content);
 }

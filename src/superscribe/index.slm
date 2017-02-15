@@ -1,0 +1,146 @@
+doctype 5
+html
+  head
+    meta charset="utf-8"
+    meta http-equiv="x-ua-compatible" content="ie=edge"
+    title jpsilva : Apps : Web Development : Illustration
+
+    meta name="viewport" content="width=device-width, initial-scale=1"
+
+    / For old IEs
+    link rel="shortcut icon" href="favicon.ico"
+
+    / For new browsers multisize ico
+    link rel="icon" type="image/x-icon" sizes="16x16 32x32" href="favicon.ico"
+
+    / Chrome for Android
+    link rel="icon" sizes="192x192" href="favicon-192.png"
+
+    / For iPhone 6+ downscaled for other devices
+    link rel="apple-touch-icon-precomposed" sizes="180x180" href="favicon-180.png"
+
+    / For IE10 Metro
+    meta name="msapplication-TileColor" content="#FFFFFF"
+    meta name="msapplication-TileImage" content="favicon-144.png"
+
+    link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,600"
+    link rel="stylesheet" href="/styles/site.css"
+
+    javascript:
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-15048691-2', 'auto');
+      ga('send', 'pageview');
+  body
+    header.header--superscribe
+      .content
+        h1.site-title
+          a.brand-link href="/" jpsilva
+    .product--superscribe#superscribe
+      .content
+        img.product-icon src="/images/superscribe-icon.png" alt="Superscribe icon" width="64"
+        h2.product-title Superscribe
+        p.product-summary Distraction-free comic script editor for Mac.
+        p Don't worry about numbering pages and panels. Forget about switching
+          between headings, action, characters and dialog. Just write and let
+          Superscribe handle the formatting.
+        p The superscript syntax was inspired by markdown and fountain. One hashtag creates a page heading.
+          Two hashtags create a panel heading. Superscribe inserts the page and
+          panel numbers automatically, as you type.
+        p.product-links
+          a.product-link href="https://itunes.apple.com/us/app/superscribe/id1193005924?mt=12"
+            img src="/images/app-store-badge.svg" alt="Download from the macOS App Store" width="175"
+        /  a.product-link href=""
+        /    img src="/images/windows-store-badge.png" alt="Download from the Windows App Store" width="150"
+
+        pre.preview
+          |
+            ---
+            # This is the "frontmatter" section of the document, which uses YAML format to
+            # define certain metadata. Here is where you set your title, author, draft,
+            # date, and any extra information like mailing address, email address, etc.
+            # Learn basic YAML syntax at http://docs.ansible.com/ansible/YAMLSyntax.html
+
+            title: Demo Script
+            author: Justin Paul Silva
+            # Alternatively, use the "authors" attribute with an array of authors.
+
+            draft: 1
+            email: justin@jpsilva.com
+            phone: 999-555-4321
+            address: |
+            99 Fairytale Ln
+            Boston, MA 02134
+
+            # Anything else you put in this section will show up on the cover page, even if
+            # we don't have a standard format for it.
+            favorite series:
+            Southern Bastards
+            eye color:
+            Brown
+            ---
+
+            # ONE
+
+            ## Panel 1
+            Create a page heading by beginning a line with a single "#", or a panel with "##".
+
+            ##
+            Pages and panels have automatic numbering.
+
+            ## Frame
+            Even if you change "panel" to another word.
+
+            #
+
+            ##
+            The panel numbers reset on every page.
+
+            ## Panels 2-5
+            And if you number panels manually, ...
+
+            ##
+            ... the automatic numbering will pick up where you left off.
+
+            #
+
+            ##
+            Create a character heading by ending with a colon (:).
+
+            Helper Monkey:
+            Any text indented with a tab or at least 2 spaces will be treated as dialog.
+
+            Helpful Sloth:
+            Lines beginning and ending with parenthesis --
+              (Cont.)
+            -- will be  treated as parentheticals when printing.
+            (Cont.)
+            Indentation doesn't matter.
+
+            Helper Monkey:
+            Oh, you'd better believe it.
+
+            ##
+            You may stylize your text in either action/description text or dialog text by surrounding your text with double slashes (//) double asterisks (**) and double underscores (__).
+
+            Italic: //I'm demonstrating emphasis//
+            Bold: **Even more emphasis**
+            Bold & italic: **//Like this//** or //**like this**//.
+            Underline: __Here's a line under the line__
+            Underline & italic: __//Here's an italic line under the line//__
+            Underline & bold: __**Here's a bold line under the line**__
+            Underline, bold & italic: __**//Here's a line under the line//**__
+            You __can even mix **up** the //styling__ however// you need.
+
+            Helper Monkey:
+            Wow, now **that's** neat-o!
+
+            [sfx]:
+            PWOOOW
+    footer
+      .content
+        p
+          | All artwork, design, code, yada, yada, yada &copy; Justin Paul Silva
