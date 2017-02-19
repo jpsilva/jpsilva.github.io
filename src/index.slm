@@ -56,9 +56,9 @@ html
           Two hashtags create a panel heading. Superscribe inserts the page and
           panel numbers automatically, as you type.
         p.product-links
-          a.product-link href="https://itunes.apple.com/us/app/superscribe/id1193005924?mt=12"
+          a.product-link href="https://itunes.apple.com/us/app/superscribe/id1193005924?mt=12" event-category="Superscribe" event-action="click" event-label="App Store"
             img src="/images/app-store-badge.svg" alt="Download from the macOS App Store" height="50"
-          a.product-link href="https://www.amazon.com/gp/product/B06WV8MFQZ"
+          a.product-link href="https://www.amazon.com/gp/product/B06WV8MFQZ" event-category="Superscribe" event-action="click" event-label="Amazon"
             img src="/images/amazon-badge.svg" alt="Download from Amazon for Windows 7+" height="50"
             small for Windows 7+
         img.superscribe-screenshot src="/images/superscribe-screenshot.jpg" alt="Superscript screenshot"
@@ -70,9 +70,9 @@ html
       p Starting a card game but you don't have pen and paper? Maybe you're too
         drunk to add numbers. Keep this on your phone just in case.
       p.product-links
-        a.product-link href="https://itunes.apple.com/us/app/summer-scorekeeper/id1191619401?ls=1&mt=8"
+        a.product-link href="https://itunes.apple.com/us/app/summer-scorekeeper/id1191619401?ls=1&mt=8" event-category="Summer" event-action="click" event-label="App Store"
           img src="/images/app-store-badge.svg" alt="Download from the iOS App Store" height="50"
-        a.product-link href="https://play.google.com/store/apps/details?id=com.jpsilva.summer"
+        a.product-link href="https://play.google.com/store/apps/details?id=com.jpsilva.summer" event-category="Summer" event-action="click" event-label="Play Store"
           img src="/images/google-play-badge.png" alt="Download from the Google Play Store" height="50"
       img.summer-screenshot src="/images/summer-screenshot.jpg" alt="Summer screenshot"
     / section.product--drawstring#drawstring
@@ -104,9 +104,9 @@ html
           files using streams, promises or plain strings. However your precompiler works,
           Genome can handle it.
         p.product-links
-          a.product-link href="https://www.npmjs.com/package/genome"
+          a.product-link href="https://www.npmjs.com/package/genome" event-category="Genome" event-action="click" event-label="NPM"
             img src="/images/npm.png" alt="View at npm" width="100"
-          a.product-link href="https://github.com/jpsilva/genome"
+          a.product-link href="https://github.com/jpsilva/genome" event-category="Genome" event-action="click" event-label="GitHub"
             img src="/images/github.png" alt="Clone from GitHub" width="100"
     section.contact#contact
       .content
@@ -118,3 +118,18 @@ html
       .content
         p
           | All artwork, design, code, yada, yada, yada &copy; Justin Paul Silva
+
+    javascript:
+      var eventElements = document.querySelectorAll('[event-category]'),
+          i;
+
+      for (i = 0; i < eventElements.length; i++) {
+        eventElements[i].addEventListener('click', function(event) {
+          event.preventDefault();
+          var url = this.href;
+          ga('send', 'event', this.getAttribute('event-category'), this.getAttribute('event-action'), this.getAttribute('event-label'), {
+           'transport': 'beacon',
+           'hitCallback': function(){ document.location = url; }
+         });
+        });
+      }
