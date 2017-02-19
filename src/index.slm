@@ -62,37 +62,37 @@ html
             img src="/images/amazon-badge.svg" alt="Download from Amazon for Windows 7+" height="50"
             small for Windows 7+
         img.superscribe-screenshot src="/images/superscribe-screenshot.jpg" alt="Superscript screenshot"
-  section.product--summer#summer
-    .content
-      img.product-icon src="/images/summer-icon.png" alt="Summer icon" width="64"
-      h2.product-title Summer
-      p.product-summary Simple scorekeeper app for Android and iOS.
-      p Starting a card game but you don't have pen and paper? Maybe you're too
-        drunk to add numbers. Keep this on your phone just in case.
-      p.product-links
-        a.product-link href="https://itunes.apple.com/us/app/summer-scorekeeper/id1191619401?ls=1&mt=8" event-category="Summer" event-action="click" event-label="App Store"
-          img src="/images/app-store-badge.svg" alt="Download from the iOS App Store" height="50"
-        a.product-link href="https://play.google.com/store/apps/details?id=com.jpsilva.summer" event-category="Summer" event-action="click" event-label="Play Store"
-          img src="/images/google-play-badge.png" alt="Download from the Google Play Store" height="50"
-      img.summer-screenshot src="/images/summer-screenshot.jpg" alt="Summer screenshot"
-    / section.product--drawstring#drawstring
-    /   .content
-    /     img.product-icon src="/images/drawstring-icon.png" alt="Drawstring icon" width="64"
-    /     h2.product-title Drawstring
-    /     p.product-summary Create surrealist comic strips with your friends and strangers.
-    /     p Inspired by the 100 year old surrealist game, exquisite corpse,
-    /       Drawstring lets you create comic strips with your friends. Each person
-    /       draws one of the four panels, but can only see the panel that comes
-    /       right before them. Nobody sees the full picture until it's done.
-    /     p.product-links
-    /       a href="https://drawstring.somethinglabs.com" Join the play test
-    /     img.drawstring-screenshot src="/images/drawstring-screenshot.jpg" alt="Drawstring screenshot"
-    / section.product--seconds#seconds
-    /   .content
-    /     img.product-icon src="/images/seconds-logo.png" alt="Seconds logo" width="150"
-    /     p.product-summary Multiple cooking timers on your phone.
-    /     p Easily create multiple timers on your iPhone or Android to make
-    /       every piece of your meal ready right on time.
+    section.product--summer#summer
+      .content
+        img.product-icon src="/images/summer-icon.png" alt="Summer icon" width="64"
+        h2.product-title Summer
+        p.product-summary Simple scorekeeper app for Android and iOS.
+        p Starting a card game but you don't have pen and paper? Maybe you're too
+          drunk to add numbers. Keep this on your phone just in case.
+        p.product-links
+          a.product-link href="https://itunes.apple.com/us/app/summer-scorekeeper/id1191619401?ls=1&mt=8" event-category="Summer" event-action="click" event-label="App Store"
+            img src="/images/app-store-badge.svg" alt="Download from the iOS App Store" height="50"
+          a.product-link href="https://play.google.com/store/apps/details?id=com.jpsilva.summer" event-category="Summer" event-action="click" event-label="Play Store"
+            img src="/images/google-play-badge.png" alt="Download from the Google Play Store" height="50"
+        img.summer-screenshot src="/images/summer-screenshot.jpg" alt="Summer screenshot"
+      / section.product--drawstring#drawstring
+      /   .content
+      /     img.product-icon src="/images/drawstring-icon.png" alt="Drawstring icon" width="64"
+      /     h2.product-title Drawstring
+      /     p.product-summary Create surrealist comic strips with your friends and strangers.
+      /     p Inspired by the 100 year old surrealist game, exquisite corpse,
+      /       Drawstring lets you create comic strips with your friends. Each person
+      /       draws one of the four panels, but can only see the panel that comes
+      /       right before them. Nobody sees the full picture until it's done.
+      /     p.product-links
+      /       a href="https://drawstring.somethinglabs.com" Join the play test
+      /     img.drawstring-screenshot src="/images/drawstring-screenshot.jpg" alt="Drawstring screenshot"
+      / section.product--seconds#seconds
+      /   .content
+      /     img.product-icon src="/images/seconds-logo.png" alt="Seconds logo" width="150"
+      /     p.product-summary Multiple cooking timers on your phone.
+      /     p Easily create multiple timers on your iPhone or Android to make
+      /       every piece of your meal ready right on time.
     section.product--genome#genome
       .content
         img.product-icon src="/images/genome-icon.png" alt="Genome logo" width="64"
