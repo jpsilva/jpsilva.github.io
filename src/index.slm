@@ -48,10 +48,11 @@ html
       .content
         img.product-icon src="/images/superscribe-icon.png" alt="Superscribe icon" width="64"
         h2.product-title Superscribe
-        p.product-summary Distraction-free comic script editor for Mac.
+        p.product-summary Distraction-free comic script editor for Mac and Windows.
         p Don't worry about numbering pages and panels. Forget about switching
           between headings, action, characters and dialog. Just write and let
-          Superscribe handle the formatting.
+          Superscribe handle the formatting and number the pages and panels foryou.
+          Fewer distractions means faster writing and easier editing.
         p The superscript syntax was inspired by markdown and fountain. One hashtag creates a page heading.
           Two hashtags create a panel heading. Superscribe inserts the page and
           panel numbers automatically, as you type.
