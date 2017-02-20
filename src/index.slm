@@ -27,6 +27,7 @@ html
     link rel="stylesheet" href="/styles/site.css"
 
     javascript:
+      // Google Analytics
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
       m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -34,6 +35,21 @@ html
 
       ga('create', 'UA-15048691-2', 'auto');
       ga('send', 'pageview');
+
+      // Facebook pixel
+      !function(f,b,e,v,n,t,s)
+      {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+      n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+      if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+      n.queue=[];t=b.createElement(e);t.async=!0;
+      t.src=v;s=b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t,s)}(window,document,'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+       fbq('init', '1635531060089530');
+      fbq('track', 'PageView');
+
+    noscript
+     img height="1" width="1" src="https://www.facebook.com/tr?id=1635531060089530&ev=PageView&noscript=1"
   body
     header
       .content
@@ -50,8 +66,8 @@ html
         h2.product-title Superscribe
         p.product-summary Distraction-free comic script editor for Mac and Windows.
         p Don't worry about numbering pages and panels. Forget about switching
-          between headings, action, characters and dialog. Just write and let
-          Superscribe handle the formatting and number the pages and panels foryou.
+          between headings, action, characters and dialog. Let
+          Superscribe handle the formatting and page/panel numbering as you type.
           Fewer distractions means faster writing and easier editing.
         p The superscript syntax was inspired by markdown and fountain. One hashtag creates a page heading.
           Two hashtags create a panel heading. Superscribe inserts the page and
@@ -131,6 +147,7 @@ html
           ga('send', 'event', this.getAttribute('event-category'), this.getAttribute('event-action'), this.getAttribute('event-label'), {
            'transport': 'beacon',
            'hitCallback': function(){ document.location = url; }
-         });
+          });
+          fbq('track', 'Lead');
         });
       }
