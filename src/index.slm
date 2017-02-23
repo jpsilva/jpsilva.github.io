@@ -72,6 +72,12 @@ html
         p The superscript syntax was inspired by markdown and fountain. One hashtag creates a page heading.
           Two hashtags create a panel heading. Superscribe inserts the page and
           panel numbers automatically, as you type.
+        ul
+          li Automatic page, panel and dialog numbering
+          li Contextual formatting as you type
+          li Page breaks before each page headings
+          li Spell check
+          li Print or export to PDF
         p.product-links
           a.product-link href="https://itunes.apple.com/us/app/superscribe/id1193005924?mt=12" event-category="Superscribe" event-action="click" event-label="App Store"
             img src="/images/app-store-badge.svg" alt="Download from the macOS App Store" height="50"
