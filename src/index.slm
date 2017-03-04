@@ -75,7 +75,8 @@ html
         ul
           li Automatic page, panel and dialog numbering
           li Contextual formatting as you type
-          li Page breaks before each page headings
+          li Displays your dialog word count; per speech bubble, per panel and per page
+          li Page breaks before each page heading
           li Spell check
           li Print or export to PDF
         p.product-links
