@@ -70,6 +70,12 @@ section {
   height: 50px;
   text-decoration: none;
 }
+.product--alt-fight {
+  padding-bottom: 0;
+  background-color: #ffdf00;
+  background-image: linear-gradient(to bottom right, #e8c03c, #ffdf00 10%, #f5c832 20%, #f5c832 80%, #ffdf00 90%, #e8c03c);
+  box-shadow: none;
+}
 .product--drawstring {
   padding-bottom: 0;
   background: #e4f1f1;
@@ -112,6 +118,16 @@ section {
 }
 .product-link > small {
   display: block;
+}
+.social-link {
+  display: inline-block;
+  margin: 1em 1em;
+}
+.alt-fight-screenshot {
+  display: block;
+  width: 700px;
+  max-width: 100%;
+  margin: 0 auto;
 }
 .drawstring-screenshot {
   display: block;

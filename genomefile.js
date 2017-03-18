@@ -19,6 +19,11 @@ genome.tasks = {
     return 'superscribe/index.html'.write(slm.render(file));
   },
 
+  * privacySlmToHtml() {
+    let file = yield 'src/privacy/index.slm'.read();
+    return 'privacy/index.html'.write(slm.render(file));
+  },
+
   // * stylusToCss() {
   //   let file = yield 'src/styles/site.styl'.read();
   //   return 'styles/site.css'.write(stylus(file).render());
@@ -31,6 +36,7 @@ genome.tasks = {
 
     'src/index.slm'.onChange('slmToHtml');
     'src/superscribe/index.slm'.onChange('superscribeSlmToHtml');
+    'src/privacy/index.slm'.onChange('privacySlmToHtml');
     'src/webfonts/index.slm'.onChange('fontSlmToHtml');
     // 'src/styles/**/*.styl'.onChange('stylusToCss');
     '**/*.{css,html,jpeg,jpg,gif,png,svg}'.onChange(server.reload);

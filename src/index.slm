@@ -54,12 +54,35 @@ html
     header
       .content
         h1.site-title jpsilva
-        p.site-summary Apps, tools, sites, illustration
+        p.site-summary Apps, games, tools, sites, illustration
         nav.main-nav
+          a.nav-link href="#alt-fight" Alt-Fight
           a.nav-link href="#superscribe" Superscribe
           a.nav-link href="#summer" Summer
           a.nav-link href="#genome" Genome
           a.nav-link href="#contact" Contact
+    section.product--alt-fight#alt-fight
+      .content
+        img.product-icon src="/images/alt-fight-icon.png" alt="Summer icon" width="64"
+        h2.product-title Alt-Fight
+        p.product-summary Trump tower defense
+        p With 306 beautiful Electoral College votes, you're already the most tremendous American President of all time. Now you need to defend your historic approval rating from the FAKE NEWS! Distract them from your numerous scandals with ridiculous tweets and with the help of your cabinet of deplorables. How long can you last before being impeached?
+        p
+          . Game design, UI, and game development by me, Justin Paul Silva. Character and background illustration by
+          a href="http://isaacdurazo.com" Isaac Durazo
+          . . Music by
+          a href="http://ozzed.net" Ozzed
+          | , used with permission.
+        p.product-links
+          strong Coming soon to the iPhone App Store and Google Play Store
+        p.product-links
+          /a.product-link href="https://itunes.apple.com/us/app/alt-fight/id1214651507?ls=1&mt=8" event-category="Alt-Fight" event-action="click" event-label="App Store"
+          /  img src="/images/app-store-badge.svg" alt="Download from the iOS App Store" height="50"
+          /a.product-link href="https://play.google.com/store/apps/details?id=com.jpsilva.AltFight" event-category="Alt-Fight" event-action="click" event-label="Play Store"
+          /  img src="/images/google-play-badge.png" alt="Download from the Google Play Store" height="50"
+          a.social-link href="https://www.facebook.com/Alt-Fight-Trump-Tower-Defense-170299933484984/"
+            img src="/images/FB-FindUsonFacebook-online-512.png" alt="Find us on Facebook" width="100"
+        img.alt-fight-screenshot src="/images/alt-fight-screenshot.jpg" alt="Alt-Fight screenshot"
     section.product--superscribe#superscribe
       .content
         img.product-icon src="/images/superscribe-icon.png" alt="Superscribe icon" width="64"
@@ -141,7 +164,8 @@ html
     footer
       .content
         p
-          | All artwork, design, code, yada, yada, yada &copy; Justin Paul Silva
+          a href="/privacy" Privacy Policy
+        p All artwork, design, code, yada, yada, yada &copy; Justin Paul Silva
 
     javascript:
       var eventElements = document.querySelectorAll('[event-category]'),
