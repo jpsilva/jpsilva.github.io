@@ -162,8 +162,9 @@ html
     footer
       .content
         p
-          a href="/privacy" Privacy Policy
-        p All artwork, design, code, yada, yada, yada &copy; Justin Paul Silva
+          | Alt-Fight artwork &copy;2017 Isaac Durazo
+          br
+          | All other artwork, design, code, etc. &copy;2017 Justin Paul Silva
 
     javascript:
       var eventElements = document.querySelectorAll('[event-category]'),
