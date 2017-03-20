@@ -74,14 +74,12 @@ html
           a href="http://ozzed.net" Ozzed
           | , used with permission.
         p.product-links
-          /a.product-link href="https://itunes.apple.com/us/app/alt-fight/id1214651507?ls=1&mt=8" event-category="Alt-Fight" event-action="click" event-label="App Store"
-          /  img src="/images/app-store-badge.svg" alt="Download from the iOS App Store" height="50"
+          a.product-link href="https://itunes.apple.com/us/app/alt-fight/id1214651507" event-category="Alt-Fight" event-action="click" event-label="App Store"
+            img src="/images/app-store-badge.svg" alt="Download from the iOS App Store" height="50"
           a.product-link href="https://play.google.com/store/apps/details?id=com.jpsilva.AltFight" event-category="Alt-Fight" event-action="click" event-label="Play Store"
             img src="/images/google-play-badge.png" alt="Download from the Google Play Store" height="50"
           a.social-link href="https://www.facebook.com/Alt-Fight-Trump-Tower-Defense-170299933484984/"
             img src="/images/FB-FindUsonFacebook-online-512.png" alt="Find us on Facebook" width="100"
-        p.product-links
-          strong Coming soon to the iPhone App Store
         img.alt-fight-screenshot src="/images/alt-fight-screenshot.jpg" alt="Alt-Fight screenshot"
     section.product--superscribe#superscribe
       .content
