@@ -1,3 +1,5 @@
+/ output: ../index.html
+
 doctype 5
 html
   head
@@ -59,7 +61,7 @@ html
           a.nav-link href="#alt-fight" Alt-Fight
           a.nav-link href="#superscribe" Superscribe
           a.nav-link href="#summer" Summer
-          a.nav-link href="#genome" Genome
+          a.nav-link href="#genome" Dev tools
           a.nav-link href="#contact" Contact
     section.product--alt-fight#alt-fight
       .content
@@ -150,8 +152,23 @@ html
           Genome can handle it.
         p.product-links
           a.product-link href="https://www.npmjs.com/package/genome" event-category="Genome" event-action="click" event-label="NPM"
-            img src="/images/npm.png" alt="View at npm" width="100"
+            img src="/images/npm.png" alt="View at npm" width="100" style="margin-top:5px"
           a.product-link href="https://github.com/jpsilva/genome" event-category="Genome" event-action="click" event-label="GitHub"
+            img src="/images/github.png" alt="Clone from GitHub" width="100"
+    section.product--slm-autocompile#slm-autocompile
+      .content
+        h2.product-title slm-autocompile for Atom.io
+        p.product-summary Auto compile Slm files on save.
+        p
+          . Despite it's lack of documentation for advanced features,
+          a href="https://github.com/slm-lang/slm" Slm
+          |  is my favorite HTML preprocessor, better than HAML, Jade and Slim. It's what
+            I use for this website. So I thought I'd make this easy templating language
+            even easier to use.
+        p.product-links
+          a.product-link href="https://atom.io/packages/slm-autocompile" event-category="slm-autocompile" event-action="click" event-label="apm"
+            img src="https://cloud.githubusercontent.com/assets/72919/2874231/3af1db48-d3dd-11e3-98dc-6066f8bc766f.png" alt="Atom package manager page" width="150" style="margin-top:5px"
+          a.product-link href="https://github.com/jpsilva/slm-autocompile" event-category="slm-autocompile" event-action="click" event-label="GitHub"
             img src="/images/github.png" alt="Clone from GitHub" width="100"
     section.contact#contact
       .content
