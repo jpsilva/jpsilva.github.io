@@ -84,6 +84,9 @@ section {
 .product--genome {
   background: #fff;
 }
+.product--slm-autocompile {
+  background: #eee;
+}
 .product--seconds {
   background: #64297a;
   color: #fff;
