@@ -55,10 +55,93 @@ html
   body
     header
       .content
-        h1.site-title Justin Paul Silva's Portfolio
-        p.site-summary Redesigns, original designs, and concepts
-    section.portfolio-section
+        h1.site-title
+          a.brand-link href="/" jpsilva
+          | /portfolio
+        p.site-summary Case studies of redesigns and original content
+        nav.main-nav
+          a.nav-link href="#patient-portal" Patient Portal
+          a.nav-link href="#immigration-planner" Immigration Planner
+          a.nav-link href="#summer" Summer
+    section.portfolio-section#patient-portal
       .content
+        h2 Patient Portal
+        p I was hired at Vecna Technologies as the lead designer on their patient portal redesign. I took input from managers, fellow designers and clients to design and prototyped the new patient portal.
+
+        h3 Objective
+        p Increase useability across devices while adding new features to the then-current patient portal.
+
+        h3 Before redesign
+        img.portfolio-screenshot src="/images/portfolio/patient-portal-before.jpg"
+
+        h4 Pain points
+        ul
+          li Top header wasted on client's logo with no real actions other than signout (which isn't obvious).
+          li Main navigation is placed, unexpectedly, on the right hand side, making them seem like secondary actions.
+          li Unnecessary introduction below header. Moving the main nav to the header should do a better job of explaining what the user can do than extra text.
+          li The lack of consistent alignment, dull textures and unnecessary use of wells makes the app aesthetically unpleasing.
+          li Unclear what "actions" are. Use of bold text and icons appears to be random, so no meaning can be derived from them.
+
+        h3 After redesign
+        img.portfolio-screenshot src="/images/portfolio/patient-portal-desktop.jpg"
+
+        h4 Changes
+        ul
+          li Moved main navigation to the very top, to meet user's expectations.
+          li Changed "actions" to "to-do" to tell users that these are items that they need to attend to, whether it's going to an appointment, viewing test results or paying a bill.
+          li Added shortcut buttons to items for registering for appointments and paying bills.
+          li Added photo identification to differential between whose account the user is currently viewing. (Could be themself or a family member.)
+          li Added "messages" section for patients to communicate with their doctors.
+          li Added Electronic Health Record section.
+          li Added help aside to supply the user with contextual guidance.
+          li Added common actions toolbar.
+          li Hopefully the new design makes it more clear what users are able to do in the app without needing to expicitely point it out to them.
+
+        h4 Tablet and mobile
+        img.portfolio-screenshot--two-thirds src="/images/portfolio/patient-portal-tablet.jpg"
+        img.portfolio-screenshot--one-third src="/images/portfolio/patient-portal-mobile.jpg"
+
+        ul
+          li Hid less necessary information and actions.
+          li Allowed the user to easily access hidden information by clicking the "i" tab on tablet or scrolling to the bottom of the page on mobile.
+
+        p: small &copy Vecna Technologies
+    section.portfolio-section#immigration-planner
+      .content
+        h2 Immigration Planner
+        p I was hired by Immigration Planner as the web app's sole designer and engineer.
+
+        h3 Objective
+        p Allow users to easily navigate the complex U.S. immigration system.
+
+        h3 The pieces
+        ul
+          li Eligibility checker - Is the user eligible for family-based immigration to the United States?
+          li Checklist - What forms, documents, etc. does the user need to submit, and what other steps must be taken?
+          li Filing address wizard - Where does the user need to mail their forms and documents?
+          li Timeline - If the user begins now, when can they expect to receive their green card?
+
+        p Theses were originally thought of as a set of separate tools to help users complete the immigration process. I realized that these tools don't all work very well on their own, but when combined, because far more powerful. E.g. in order to give the user a customized checklist, we need to know their family relationship, their sponsor's legal status, and other variables, all of which we learn with the eligibitily checker. So why ask all those questions again?
+
+        p: small &copy Mossettes Technologies
+    section.portfolio-section#summer
+      .content
+        h2 Summer
+        p I created this app as a side project after being unsatisfied with the available apps on the Play Store. Many scorekeeping apps cost more money than I felt like spending on a glorified calculator. The free apps that are available often have far more features than I want, which means it takes longer to get the app set up, when all I want to do is start playing the game!
+
+        h3 Objective
+        p Allow users to keep score of many different games (Scrabble, gin rummy, 45s, Uno, whatever) with the easiest set-up and learning curve possible.
+      section.portfolio-section#testimonials: .content
+        h2 Testimonials
+        blockquote
+          . Justin Silva has proven to me over and over his outstanding web publishing skills. He has done a wonderful job creating several websites for us and has not met a challenge he couldn't beat. I have personally assigned several tasks that other web publishers referred to as being too complicated or unattainable, but Justin showed patience and skill, while rolling up his sleeves and getting the task completed. He has exhibited a strong focus and attention to detail, and ability to follow through with tough assignments. I highly recommend Justin Silva to any company seeking a skilled, creative web publisher.
+          cite - Bruce Bennett (Next Day Disc, The CD Recycling Center of America)
+        blockquote
+          . Justin Silva took my ideas for a website and made them even better than I had imagined. His ability to implement the latest trends and technologies made it so my website was fresh and current.... Thanks Justin!
+          cite - Matt Donaher
+        blockquote
+          . Justin set up my entire website in no time at all. I trusted his creative decisions and he was able to put together exactly what I was looking for. It was so exciting seeing the step by step process as Justin paid amazing attention to detail. I highly recommend his website work to anyone.
+          cite - Dan Crohn
 
     javascript:
       var eventElements = document.querySelectorAll('[event-category]'),
