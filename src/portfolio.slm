@@ -70,7 +70,7 @@ html
         p I was hired at Vecna Technologies as the lead designer on their patient portal redesign. I took input from managers, fellow designers and clients to design and prototyped the new patient portal.
 
         h3 Objective
-        p Increase useability across devices while adding new features to the then-current patient portal.
+        p Increase usability across devices while adding new features to the then-current patient portal.
 
         h3 Before redesign
         img.portfolio-screenshot src="/images/portfolio/patient-portal-before.jpg"
@@ -96,7 +96,7 @@ html
           li Added Electronic Health Record section.
           li Added help aside to supply the user with contextual guidance.
           li Added common actions toolbar.
-          li Hopefully the new design makes it more clear what users are able to do in the app without needing to expicitely point it out to them.
+          li Hopefully the new design makes it more clear what users are able to do in the app without needing to explicitly point it out to them.
 
         h4 Tablet and mobile
         img.portfolio-screenshot--two-thirds src="/images/portfolio/patient-portal-tablet.jpg"
@@ -122,7 +122,7 @@ html
           li Filing address wizard - Where does the user need to mail their forms and documents?
           li Timeline - If the user begins now, when can they expect to receive their green card?
 
-        p Theses were originally thought of as a set of separate tools to help users complete the immigration process. I realized that these tools don't all work very well on their own, but when combined, because far more powerful. E.g. in order to give the user a customized checklist, we need to know their family relationship, their sponsor's legal status, and other variables, all of which we learn with the eligibitily checker. So why ask all those questions again?
+        p Theses were originally thought of as a set of separate tools to help users complete the immigration process. I realized that these tools don't all work very well on their own, but when combined, because far more powerful. E.g. in order to give the user a customized checklist, we need to know their family relationship, their sponsor's legal status, and other variables, all of which we learn with the eligibility checker. So why ask all those questions again?
 
         p What I designed is a workflow that begins with checking eligibility, the result of which shows the user their eligibility information along with a basic timeline, and then continues with the checklist. The filing address wizard is available when it becomes useful to the user.
 
