@@ -63,6 +63,7 @@ html
           a.nav-link href="#patient-portal" Patient Portal
           a.nav-link href="#immigration-planner" Immigration Planner
           a.nav-link href="#summer" Summer
+          a.nav-link href="#testimonials" Testimonials
     section.portfolio-section#patient-portal
       .content
         h2 Patient Portal
@@ -123,6 +124,29 @@ html
 
         p Theses were originally thought of as a set of separate tools to help users complete the immigration process. I realized that these tools don't all work very well on their own, but when combined, because far more powerful. E.g. in order to give the user a customized checklist, we need to know their family relationship, their sponsor's legal status, and other variables, all of which we learn with the eligibitily checker. So why ask all those questions again?
 
+        p What I designed is a workflow that begins with checking eligibility, the result of which shows the user their eligibility information along with a basic timeline, and then continues with the checklist. The filing address wizard is available when it becomes useful to the user.
+
+        img.portfolio-screenshot src="/images/portfolio/ip-questionnaire.jpg"
+
+        ul
+          li At the beginning of the survey, we ask the user for the name of the sponsor and applicant. This allows us to use their names in the following questions, help text and in the checklist. Without asking for names, the words "sponsor," "applicant" and "common parent" can quickly lead to confusion and incorrect answers, meaning we could end up giving bad advice.
+          li We narrowed down the questionnaires to use as few questions as possible.
+          li We split up questionnaires by topic so that we can give the user a new outcome as soon as we have new information to show them.
+          li We provided optional instruction on most questions to help users supply the correct answer with confidence.
+
+        img.portfolio-screenshot src="/images/portfolio/ip-checklist.jpg"
+
+        ul
+          li We split up the checklist into chronological segments. First the user must fill out the "initial application" and wait for a reply before moving on to the next section, and so on.
+          li We reused the names from the questionnaire to personalize the checklist and avoid confusion.
+          li Again, most checklist items are given contextual information to help users understand or complete each task.
+
+        img.portfolio-screenshot src="/images/portfolio/ip-glossary.jpg"
+
+        ul
+          li We created an extensive glossary of terms that users are likely to come across in our application and throughout the immigration process.
+          li When applicable, we provide quick links to definitions within questionnaire outcomes, in checklist help, etc. Here, you can see the glossary quick link being used within the glossary itself.
+
         p: small &copy Mossettes Technologies
     section.portfolio-section#summer
       .content
@@ -131,17 +155,33 @@ html
 
         h3 Objective
         p Allow users to keep score of many different games (Scrabble, gin rummy, 45s, Uno, whatever) with the easiest set-up and learning curve possible.
-      section.portfolio-section#testimonials: .content
-        h2 Testimonials
-        blockquote
-          . Justin Silva has proven to me over and over his outstanding web publishing skills. He has done a wonderful job creating several websites for us and has not met a challenge he couldn't beat. I have personally assigned several tasks that other web publishers referred to as being too complicated or unattainable, but Justin showed patience and skill, while rolling up his sleeves and getting the task completed. He has exhibited a strong focus and attention to detail, and ability to follow through with tough assignments. I highly recommend Justin Silva to any company seeking a skilled, creative web publisher.
-          cite - Bruce Bennett (Next Day Disc, The CD Recycling Center of America)
-        blockquote
-          . Justin Silva took my ideas for a website and made them even better than I had imagined. His ability to implement the latest trends and technologies made it so my website was fresh and current.... Thanks Justin!
-          cite - Matt Donaher
-        blockquote
-          . Justin set up my entire website in no time at all. I trusted his creative decisions and he was able to put together exactly what I was looking for. It was so exciting seeing the step by step process as Justin paid amazing attention to detail. I highly recommend his website work to anyone.
-          cite - Dan Crohn
+
+        img.portfolio-screenshot--half src="/images/portfolio/summer-keyboard.png"
+        img.portfolio-screenshot--half src="/images/portfolio/summer.png"
+
+        p When you launch the app, it will show your previous game, or a blank sheet if it's your first time in the app. From there, you can do one of 6 simple actions:
+
+        ul
+          li Add a player by clicking the "+ person" icon.
+          li Rename a player by clicking on a name and typing a new one in the keyboard.
+          li Remove a player by clicking on a name then clicking the "remove player" button.
+          li Select a score field by clicking on it or by using the arrow keys above the keyboard.
+          li Change or set a score by selecting a field and typing the score in the keyboard.
+          li Clear the game by clicking the eraser icon by the score totals.
+
+        p That's it. It doesn't save your games beyond the current one, so you don't have to give the name a game. You're only allowed 3 characters per game (old arcade style), so more player columns can fit the screen and start up is quicker. There's nothing beyond what's absolutely necessary.
+
+    section.portfolio-section#testimonials: .content
+      h2 Testimonials
+      blockquote
+        . Justin Silva has proven to me over and over his outstanding web publishing skills. He has done a wonderful job creating several websites for us and has not met a challenge he couldn't beat. I have personally assigned several tasks that other web publishers referred to as being too complicated or unattainable, but Justin showed patience and skill, while rolling up his sleeves and getting the task completed. He has exhibited a strong focus and attention to detail, and ability to follow through with tough assignments. I highly recommend Justin Silva to any company seeking a skilled, creative web publisher.
+        cite - Bruce Bennett (Next Day Disc, The CD Recycling Center of America)
+      blockquote
+        . Justin Silva took my ideas for a website and made them even better than I had imagined. His ability to implement the latest trends and technologies made it so my website was fresh and current.... Thanks Justin!
+        cite - Matt Donaher
+      blockquote
+        . Justin set up my entire website in no time at all. I trusted his creative decisions and he was able to put together exactly what I was looking for. It was so exciting seeing the step by step process as Justin paid amazing attention to detail. I highly recommend his website work to anyone.
+        cite - Dan Crohn
 
     javascript:
       var eventElements = document.querySelectorAll('[event-category]'),
