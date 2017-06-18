@@ -60,10 +60,34 @@ html
           | /portfolio
         p.site-summary Case studies of redesigns and original content
         nav.main-nav
+          a.nav-link href="#logo-design" Logo Design
           a.nav-link href="#patient-portal" Patient Portal
           a.nav-link href="#immigration-planner" Immigration Planner
           a.nav-link href="#summer" Summer
           a.nav-link href="#testimonials" Testimonials
+    section.portfolio-section#logo-design: .content
+      h2 Logo Design
+
+      h3 Krista+Justin/Justin+Krista
+      p I began trying to design monograms for my wedding, combining our initials in different ways. I ended up with an ambiguous signature that could say either "Justin" or "Krista".
+      img.center-image src="/images/portfolio/justin-krista.png" width="400"
+
+      h3 Immigration Planner
+      p At Immigration Planner, we worked to give immigrants to the U.S. control over their own immigration process. This logo - a ship's steering wheel - is meant to symbolize just that.
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" width="100" height="100" fill="white" class="center-image">
+        <path d="M21,32.95V7.05C20.67,7,20.34,7,20,7s-0.67,0-1,.05v25.9c0.33,0,.66.05,1,0.05S20.67,33,21,32.95Z"></path><path d="M20,37c-0.34,0-.67,0-1-0.05V39a1,1,0,0,0,2,0V36.95C20.67,37,20.34,37,20,37Z"></path><path d="M20,3c0.34,0,.67,0,1,0.05V1a1,1,0,0,0-2,0V3.05C19.33,3,19.66,3,20,3Z"></path><path d="M4.82,12.39a17,17,0,0,1,1-1.74L4,9.63a1,1,0,0,0-1,1.73Z"></path><path d="M9.28,12.66a13,13,0,0,0-1,1.74L30.72,27.34a13,13,0,0,0,1-1.74Z"></path><path d="M37,28.63l-1.77-1a17,17,0,0,1-1,1.74l1.77,1A1,1,0,0,0,37,28.63Z"></path><path d="M4.82,27.61L3,28.63a1,1,0,0,0,1,1.73l1.77-1A17,17,0,0,1,4.82,27.61Z"></path><path d="M8.29,25.61a13,13,0,0,0,1,1.74L31.71,14.39a13,13,0,0,0-1-1.74Z"></path><path d="M37.32,10A1,1,0,0,0,36,9.63l-1.77,1a17,17,0,0,1,1,1.74l1.77-1A1,1,0,0,0,37.32,10Z"></path><path d="M20,6A14,14,0,1,1,6,20,14,14,0,0,1,20,6m0-2A16,16,0,1,0,36,20,16,16,0,0,0,20,4h0Z"></path><circle cx="20" cy="20" r="5"></circle>
+      </svg>
+      p: small &copy Mossettes Technologies
+
+      h3 Immit
+      p Before we landed on the (rather obvious) name Immigration Planner, I came up with several other ideas that were not adopted.
+
+      p Immit is a rather obscure English word meaning "to send or let in." It's the opposite of emit. The logo I came up with is a mashup of 4 symbols, including a suspension bridge (the letters "immi"), a sign post (the letter "t"), 2 people communicating over a distance (the 2 "i"s connected by a cable), and a smile.
+      img.center-image.rounded-image src="/images/portfolio/immit-logo.jpg" width="600"
+
+      h3 Boston Baby Bows
+      p The logo I designed for Boston Baby Bows (now called Beckham Belle) consists of a piece of ribbon twisted into the shape of a heart and rotated 90 degrees to form the letter B.
+      img.center-image.rounded-image src="/images/portfolio/boston-baby-bows.png" width="600"
     section.portfolio-section#patient-portal
       .content
         h2 Patient Portal
