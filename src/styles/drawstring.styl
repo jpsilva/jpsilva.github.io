@@ -1,0 +1,38 @@
+// main: site.styl
+
+@keyframes draw
+  0%
+    stroke-dashoffset -400%
+  100%
+    stroke-dashoffset 400%
+
+button
+  margin 1em 0
+  padding 1em
+  border solid 2px #fff
+  border-radius 10px
+  background white
+  background-image linear-gradient(white, #ddd)
+  box-shadow 0 2px 2px rgba(black .5)
+  font-size 20px
+  line-height 1
+  outline none
+  transition box-shadow .2s, transform .2s
+
+  &:active
+    box-shadow none
+    transform translateY(2px)
+
+.drawstring-path
+  stroke #52B87C
+  stroke-linecap round
+  stroke-miterlimit 10
+  stroke-width 3px
+  stroke-dasharray 400% 400%
+  stroke-dashoffset -400%
+  fill none
+  animation draw 5s infinite linear
+  animation-play-state paused
+
+  &.drawing
+    animation-play-state running

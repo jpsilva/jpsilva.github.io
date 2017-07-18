@@ -1,0 +1,72 @@
+// main: site.styl
+
+delay = .5s
+duration = 1s
+
+.checkbox-toggle
+  margin 1em 0
+  padding 1em
+  border solid 2px #fff
+  border-radius 10px
+  background white
+  background-image linear-gradient(white, #ddd)
+  box-shadow 0 2px 2px rgba(black .5)
+  font-size 20px
+  line-height 1
+  outline none
+  transition box-shadow .2s, transform .2s
+
+  &:active
+    box-shadow none
+    transform translateY(2px)
+
+  .checkbox-icon
+    width 1em
+    height 1em
+    margin-right 1ex
+    transform translate3d(0,0,0)
+    transition transform delay
+    vertical-align text-bottom
+
+    &.spinning
+      transform scale(.8)
+
+    path
+      fill none
+
+  .square
+    stroke #222
+    stroke-width 10px
+    stroke-linecap round
+    stroke-linejoin round
+    stroke-dasharray 360 260
+    stroke-dashoffset 0
+    transition stroke-dasharray delay ease-in, stroke-dashoffset delay ease-in, stroke delay
+
+  .spinning > .square
+    stroke-dasharray 30 330
+    animation spin duration linear infinite
+    animation-delay delay
+    stroke #aaa
+
+  .checked > .square
+    stroke-dasharray 310 50
+    stroke-dashoffset -10
+    stroke #52B87C
+
+  .checkmark
+    stroke #aaa
+    stroke-width 20px
+    stroke-dasharray 130 150
+    stroke-dashoffset 140
+    transition stroke-dashoffset .5s .2s
+
+  .checked > .checkmark
+    stroke-dashoffset 0
+    stroke #52B87C
+
+@keyframes spin
+  from
+    stroke-dashoffset 0
+  to
+    stroke-dashoffset 360

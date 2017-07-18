@@ -1,0 +1,92 @@
+// main: site.styl
+
+.checkbox-wrap
+  padding 1em 0
+
+.rolling-checkbox
+  width 100px
+
+  &.roll
+    animation roll 1.5s
+    animation-fill-mode forwards
+    animation-timing-function linear
+
+.box
+  fill none
+  stroke #52B87C
+  stroke-width: 10px;
+  stroke-dasharray: 300 0;
+  stroke-dashoffset: -106;
+  transition: stroke-dasharray .3s;
+
+  .roll &
+    stroke-dasharray: 300 60;
+    transition: stroke-dasharray .3s 1.5s;
+
+.checkmark
+  fill none
+  stroke #52B87C
+  stroke-width 10px
+  stroke-width: 20px;
+  stroke-dasharray: 120 200;
+  stroke-dashoffset: 130;
+  transition: stroke-dashoffset .3s;
+
+  .roll &
+    stroke-dashoffset: 0;
+    transition: stroke-dashoffset .3s 1.5s;
+
+  @keyframes roll
+    0%
+      transform translate(0, 0) rotate(0)
+
+    10%
+      transform translate(-25px, -12px) rotate(-22deg)
+
+    15%
+      transform translate(-25px, -12px) rotate(-22deg)
+
+    20%
+      transform translate(50px, -20px) rotate(45deg)
+
+    25%
+      transform translate(50px, -18px) rotate(50deg)
+
+    30%
+      transform translate(100px, 0) rotate(90deg)
+
+    35%
+      transform translate(100px, 0) rotate(95deg)
+
+    40%
+      transform translate(150px, -20px) rotate(135deg)
+
+    45%
+      transform translate(150px, -18px) rotate(140deg)
+
+    50%
+      transform translate(200px, 0) rotate(180deg)
+
+    55%
+      transform translate(200px, 0) rotate(185deg)
+
+    60%
+      transform translate(250px, -20px) rotate(225deg)
+
+    65%
+      transform translate(250px, -18px) rotate(230deg)
+
+    70%
+      transform translate(300px, 0) rotate(270deg)
+
+    75%
+      transform translate(350px, -20px) rotate(315deg)
+
+    80%
+      transform translate(400px, 0) rotate(360deg)
+
+    90%
+      transform translate(425px, -12px) rotate(382deg)
+
+    100%
+      transform translate(400px, 0) rotate(360deg)
