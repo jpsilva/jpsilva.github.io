@@ -15,6 +15,13 @@
 = content('site-summary')
   | Case studies of redesigns and original content
 
+= content('site-nav')
+  nav.main-nav
+    a.nav-link href="#animation" SVG Animation
+    a.nav-link href="#logo-design" Logo Design
+    a.nav-link href="#patient-portal" Case Studies
+    a.nav-link href="#testimonials" Testimonials
+
 section.portfolio-section#animation: .content
   h2 SVG Animation
 
