@@ -1,200 +1,175 @@
 / output: ../index.html
 
-doctype 5
-html
-  head
-    meta charset="utf-8"
-    meta http-equiv="x-ua-compatible" content="ie=edge"
-    title jpsilva : Apps : Web Development : Illustration
+= extend('layout')
 
-    meta name="viewport" content="width=device-width, initial-scale=1"
+= content('title')
+  | jpsilva : Apps : Web Development : Illustration
 
-    / For old IEs
-    link rel="shortcut icon" href="favicon.ico"
+= content('brand-link')
+  | jpsilva
 
-    / For new browsers multisize ico
-    link rel="icon" type="image/x-icon" sizes="16x16 32x32" href="favicon.ico"
+= content('site-summary')
+  | Apps, games, tools, sites, illustration
 
-    / Chrome for Android
-    link rel="icon" sizes="192x192" href="favicon-192.png"
+= content('site-nav')
+  a.nav-link href="#alt-fight" Alt-Fight
+  a.nav-link href="#superscribe" Superscribe
+  a.nav-link href="#summer" Summer
+  a.nav-link href="#genome" Dev tools
+  a.nav-link href="#contact" Contact
 
-    / For iPhone 6+ downscaled for other devices
-    link rel="apple-touch-icon-precomposed" sizes="180x180" href="favicon-180.png"
+section.product--alt-fight#alt-fight
+  .content
+    img.product-icon src="/images/alt-fight-icon.png" alt="Summer icon" width="64"
+    h2.product-title Alt-Fight
+    p.product-summary Trump tower defense
+    p With 306 beautiful Electoral College votes, you're already the most tremendous American President of all time. Now you need to defend your historic approval rating from the FAKE NEWS! Distract them from your numerous scandals with ridiculous tweets and with the help of your cabinet of deplorables. How long can you last before being impeached?
+    p
+      . Game design, UI, and game development by me, Justin Paul Silva. Character and background illustration by
+      a href="http://isaacdurazo.com" Isaac Durazo
+      . . Music by
+      a href="http://ozzed.net" Ozzed
+      | , used with permission.
+    p.product-links
+      a.product-link href="https://itunes.apple.com/us/app/alt-fight/id1214651507" event-category="Alt-Fight" event-action="click" event-label="App Store"
+        img src="/images/app-store-badge.svg" alt="Download from the iOS App Store" height="50"
+      a.product-link href="https://play.google.com/store/apps/details?id=com.jpsilva.AltFight" event-category="Alt-Fight" event-action="click" event-label="Play Store"
+        img src="/images/google-play-badge.png" alt="Download from the Google Play Store" height="50"
+      a.social-link href="https://www.facebook.com/Alt-Fight-Trump-Tower-Defense-170299933484984/"
+        img src="/images/FB-FindUsonFacebook-online-512.png" alt="Find us on Facebook" width="100"
+    img.alt-fight-screenshot src="/images/alt-fight-screenshot.jpg" alt="Alt-Fight screenshot"
+section.product--superscribe#superscribe
+  .content
+    img.product-icon src="/images/superscribe-icon.png" alt="Superscribe icon" width="64"
+    h2.product-title Superscribe
+    p.product-summary Distraction-free comic script editor for Mac and Windows.
+    p Don't worry about numbering pages and panels. Forget about switching
+      between headings, action, characters and dialog. Let
+      Superscribe handle the formatting and page/panel numbering as you type.
+      Fewer distractions means faster writing and easier editing.
+    p The superscript syntax was inspired by markdown and fountain. One hashtag creates a page heading.
+      Two hashtags create a panel heading. Superscribe inserts the page and
+      panel numbers automatically, as you type.
+    ul
+      li Automatic page, panel and dialog numbering
+      li Contextual formatting as you type
+      li Displays your dialog word count; per speech bubble, per panel and per page
+      li Page breaks before each page heading
+      li Spell check
+      li Print or export to PDF
+    p.product-links
+      a.product-link href="https://itunes.apple.com/us/app/superscribe/id1193005924?mt=12" event-category="Superscribe" event-action="click" event-label="App Store"
+        img src="/images/app-store-badge.svg" alt="Download from the macOS App Store" height="50"
+      a.product-link href="https://www.amazon.com/gp/product/B06WV8MFQZ" event-category="Superscribe" event-action="click" event-label="Amazon"
+        img src="/images/amazon-badge.svg" alt="Download from Amazon for Windows 7+" height="50"
+        small for Windows 7+
+    img.superscribe-screenshot src="/images/superscribe-screenshot.jpg" alt="Superscript screenshot"
+section.product--summer#summer
+  .content
+    img.product-icon src="/images/summer-icon.png" alt="Summer icon" width="64"
+    h2.product-title Summer
+    p.product-summary Simple scorekeeper app for Android and iOS.
+    p Starting a card game but you don't have pen and paper? Maybe you're too
+      drunk to add numbers. Keep this on your phone just in case.
+    p.product-links
+      a.product-link href="https://itunes.apple.com/us/app/summer-scorekeeper/id1191619401?ls=1&mt=8" event-category="Summer" event-action="click" event-label="App Store"
+        img src="/images/app-store-badge.svg" alt="Download from the iOS App Store" height="50"
+      a.product-link href="https://play.google.com/store/apps/details?id=com.jpsilva.summer" event-category="Summer" event-action="click" event-label="Play Store"
+        img src="/images/google-play-badge.png" alt="Download from the Google Play Store" height="50"
+    img.summer-screenshot src="/images/summer-screenshot.jpg" alt="Summer screenshot"
+  / section.product--drawstring#drawstring
+  /   .content
+  /     img.product-icon src="/images/drawstring-icon.png" alt="Drawstring icon" width="64"
+  /     h2.product-title Drawstring
+  /     p.product-summary Create surrealist comic strips with your friends and strangers.
+  /     p Inspired by the 100 year old surrealist game, exquisite corpse,
+  /       Drawstring lets you create comic strips with your friends. Each person
+  /       draws one of the four panels, but can only see the panel that comes
+  /       right before them. Nobody sees the full picture until it's done.
+  /     p.product-links
+  /       a href="https://drawstring.somethinglabs.com" Join the play test
+  /     img.drawstring-screenshot src="/images/drawstring-screenshot.jpg" alt="Drawstring screenshot"
+  / section.product--seconds#seconds
+  /   .content
+  /     img.product-icon src="/images/seconds-logo.png" alt="Seconds logo" width="150"
+  /     p.product-summary Multiple cooking timers on your phone.
+  /     p Easily create multiple timers on your iPhone or Android to make
+  /       every piece of your meal ready right on time.
+section.product--genome#genome
+  .content
+    img.product-icon src="/images/genome-icon.png" alt="Genome logo" width="64"
+    h2.product-title Genome
+    p.product-summary Yet another node task runner.
+    p Simple library for compiling your front-end files. There's no messy configuration
+      like with Grunt and no awkward conventions like with Gulp. No plugins required to
+      get your favorite precompilers to work. Just write plain Javascript. You can handle
+      files using streams, promises or plain strings. However your precompiler works,
+      Genome can handle it.
+    p.product-links
+      a.product-link href="https://www.npmjs.com/package/genome" event-category="Genome" event-action="click" event-label="NPM"
+        img src="/images/npm.png" alt="View at npm" width="100" style="margin-top:5px"
+      a.product-link href="https://github.com/jpsilva/genome" event-category="Genome" event-action="click" event-label="GitHub"
+        img src="/images/github.png" alt="Clone from GitHub" width="100"
+section.product--serva#serva
+  .content
+    h2.product-title Serva for Atom.io
+    p.product-summary Run a static web server from any directory in your project.
+    p.product-summary
+      a.repo-links href="https://travis-ci.org/jpsilva/serva": img src="https://travis-ci.org/jpsilva/serva.svg?branch=master" alt="Build Status"
+      a.repo-links href="https://atom.io/packages/serva": img src="https://img.shields.io/apm/dm/serva.svg" alt="apm"
+      a.repo-links href="https://atom.io/packages/serva": img src="https://img.shields.io/apm/v/serva.svg" alt="apm"
+    p There are many static server packages for Atom, but for some reason, none seem to work. Even if they did, they don't have the flexibility I'm looking for. This package requires no setup and doesn't assume that you want to serve from just the root of your project.
+    p Just right click on any directory in the tree view in Atom and choose "Serva > Start Server" to instantly start a static web server in that directory. It's that easy. It will even watch your files for changes and reload the server automatically.
+    p.product-links
+      a.product-link href="https://atom.io/packages/serva" event-category="serva" event-action="click" event-label="apm"
+        img src="https://cloud.githubusercontent.com/assets/72919/2874231/3af1db48-d3dd-11e3-98dc-6066f8bc766f.png" alt="Serva's Atom package manager page" width="150" style="margin-top:5px"
+      a.product-link href="https://github.com/jpsilva/serva" event-category="slm-autocompile" event-action="click" event-label="GitHub"
+        img src="/images/github.png" alt="Clone serva from GitHub" width="100"
 
-    / For IE10 Metro
-    meta name="msapplication-TileColor" content="#FFFFFF"
-    meta name="msapplication-TileImage" content="favicon-144.png"
+section.product--slm-autocompile#slm-autocompile
+  .content
+    h2.product-title Slm Autocompile for Atom.io
+    p.product-summary Auto compile Slm files on save.
+    p.product-summary
+      a.repo-links href="https://travis-ci.org/jpsilva/slm-autocompile": img src="https://travis-ci.org/jpsilva/slm-autocompile.svg?branch=master" alt="Build Status"
+      a.repo-links href="https://atom.io/packages/slm-autocompile": img src="https://img.shields.io/apm/dm/slm-autocompile.svg" alt="apm"
+      a.repo-links href="https://atom.io/packages/slm-autocompile": img src="https://img.shields.io/apm/v/slm-autocompile.svg" alt="apm"
+    p
+      . Despite it's lack of documentation for advanced features,
+      a href="https://github.com/slm-lang/slm" Slm
+      |  is my favorite HTML preprocessor. It's better than HAML, Jade and Slim. It's what
+        I use to build this website. So I thought I'd make this easy templating language
+        even easier to use.
+    p.product-links
+      a.product-link href="https://atom.io/packages/slm-autocompile" event-category="slm-autocompile" event-action="click" event-label="apm"
+        img src="https://cloud.githubusercontent.com/assets/72919/2874231/3af1db48-d3dd-11e3-98dc-6066f8bc766f.png" alt="slm-autocomplete's Atom package manager page" width="150" style="margin-top:5px"
+      a.product-link href="https://github.com/jpsilva/slm-autocompile" event-category="slm-autocompile" event-action="click" event-label="GitHub"
+        img src="/images/github.png" alt="Clone slm-autocomplete from GitHub" width="100"
+section.contact#contact
+  .content
+    h2 Contact
+    p
+      . Support, work, cool ideas:
+      a href="mailto:justin@jpsilva.com" justin@jpsilva.com
+footer
+  .content
+    p
+      | Alt-Fight artwork &copy;2017 Isaac Durazo
+      br
+      | All other artwork, design, code, etc. &copy;2017 Justin Paul Silva
 
-    link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,600"
-    link rel="stylesheet" href="/styles/site.css"
+javascript:
+  var eventElements = document.querySelectorAll('[event-category]'),
+      i;
 
-    javascript:
-      // Google Analytics
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-      ga('create', 'UA-15048691-2', 'auto');
-      ga('send', 'pageview');
-
-      // Facebook pixel
-      !function(f,b,e,v,n,t,s)
-      {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-      n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-      if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-      n.queue=[];t=b.createElement(e);t.async=!0;
-      t.src=v;s=b.getElementsByTagName(e)[0];
-      s.parentNode.insertBefore(t,s)}(window,document,'script',
-      'https://connect.facebook.net/en_US/fbevents.js');
-       fbq('init', '1635531060089530');
-      fbq('track', 'PageView');
-
-    noscript
-     img height="1" width="1" src="https://www.facebook.com/tr?id=1635531060089530&ev=PageView&noscript=1"
-  body
-    header
-      .content
-        h1.site-title jpsilva
-        p.site-summary Apps, games, tools, sites, illustration
-        nav.main-nav
-          a.nav-link href="#alt-fight" Alt-Fight
-          a.nav-link href="#superscribe" Superscribe
-          a.nav-link href="#summer" Summer
-          a.nav-link href="#genome" Dev tools
-          a.nav-link href="#contact" Contact
-    section.product--alt-fight#alt-fight
-      .content
-        img.product-icon src="/images/alt-fight-icon.png" alt="Summer icon" width="64"
-        h2.product-title Alt-Fight
-        p.product-summary Trump tower defense
-        p With 306 beautiful Electoral College votes, you're already the most tremendous American President of all time. Now you need to defend your historic approval rating from the FAKE NEWS! Distract them from your numerous scandals with ridiculous tweets and with the help of your cabinet of deplorables. How long can you last before being impeached?
-        p
-          . Game design, UI, and game development by me, Justin Paul Silva. Character and background illustration by
-          a href="http://isaacdurazo.com" Isaac Durazo
-          . . Music by
-          a href="http://ozzed.net" Ozzed
-          | , used with permission.
-        p.product-links
-          a.product-link href="https://itunes.apple.com/us/app/alt-fight/id1214651507" event-category="Alt-Fight" event-action="click" event-label="App Store"
-            img src="/images/app-store-badge.svg" alt="Download from the iOS App Store" height="50"
-          a.product-link href="https://play.google.com/store/apps/details?id=com.jpsilva.AltFight" event-category="Alt-Fight" event-action="click" event-label="Play Store"
-            img src="/images/google-play-badge.png" alt="Download from the Google Play Store" height="50"
-          a.social-link href="https://www.facebook.com/Alt-Fight-Trump-Tower-Defense-170299933484984/"
-            img src="/images/FB-FindUsonFacebook-online-512.png" alt="Find us on Facebook" width="100"
-        img.alt-fight-screenshot src="/images/alt-fight-screenshot.jpg" alt="Alt-Fight screenshot"
-    section.product--superscribe#superscribe
-      .content
-        img.product-icon src="/images/superscribe-icon.png" alt="Superscribe icon" width="64"
-        h2.product-title Superscribe
-        p.product-summary Distraction-free comic script editor for Mac and Windows.
-        p Don't worry about numbering pages and panels. Forget about switching
-          between headings, action, characters and dialog. Let
-          Superscribe handle the formatting and page/panel numbering as you type.
-          Fewer distractions means faster writing and easier editing.
-        p The superscript syntax was inspired by markdown and fountain. One hashtag creates a page heading.
-          Two hashtags create a panel heading. Superscribe inserts the page and
-          panel numbers automatically, as you type.
-        ul
-          li Automatic page, panel and dialog numbering
-          li Contextual formatting as you type
-          li Displays your dialog word count; per speech bubble, per panel and per page
-          li Page breaks before each page heading
-          li Spell check
-          li Print or export to PDF
-        p.product-links
-          a.product-link href="https://itunes.apple.com/us/app/superscribe/id1193005924?mt=12" event-category="Superscribe" event-action="click" event-label="App Store"
-            img src="/images/app-store-badge.svg" alt="Download from the macOS App Store" height="50"
-          a.product-link href="https://www.amazon.com/gp/product/B06WV8MFQZ" event-category="Superscribe" event-action="click" event-label="Amazon"
-            img src="/images/amazon-badge.svg" alt="Download from Amazon for Windows 7+" height="50"
-            small for Windows 7+
-        img.superscribe-screenshot src="/images/superscribe-screenshot.jpg" alt="Superscript screenshot"
-    section.product--summer#summer
-      .content
-        img.product-icon src="/images/summer-icon.png" alt="Summer icon" width="64"
-        h2.product-title Summer
-        p.product-summary Simple scorekeeper app for Android and iOS.
-        p Starting a card game but you don't have pen and paper? Maybe you're too
-          drunk to add numbers. Keep this on your phone just in case.
-        p.product-links
-          a.product-link href="https://itunes.apple.com/us/app/summer-scorekeeper/id1191619401?ls=1&mt=8" event-category="Summer" event-action="click" event-label="App Store"
-            img src="/images/app-store-badge.svg" alt="Download from the iOS App Store" height="50"
-          a.product-link href="https://play.google.com/store/apps/details?id=com.jpsilva.summer" event-category="Summer" event-action="click" event-label="Play Store"
-            img src="/images/google-play-badge.png" alt="Download from the Google Play Store" height="50"
-        img.summer-screenshot src="/images/summer-screenshot.jpg" alt="Summer screenshot"
-      / section.product--drawstring#drawstring
-      /   .content
-      /     img.product-icon src="/images/drawstring-icon.png" alt="Drawstring icon" width="64"
-      /     h2.product-title Drawstring
-      /     p.product-summary Create surrealist comic strips with your friends and strangers.
-      /     p Inspired by the 100 year old surrealist game, exquisite corpse,
-      /       Drawstring lets you create comic strips with your friends. Each person
-      /       draws one of the four panels, but can only see the panel that comes
-      /       right before them. Nobody sees the full picture until it's done.
-      /     p.product-links
-      /       a href="https://drawstring.somethinglabs.com" Join the play test
-      /     img.drawstring-screenshot src="/images/drawstring-screenshot.jpg" alt="Drawstring screenshot"
-      / section.product--seconds#seconds
-      /   .content
-      /     img.product-icon src="/images/seconds-logo.png" alt="Seconds logo" width="150"
-      /     p.product-summary Multiple cooking timers on your phone.
-      /     p Easily create multiple timers on your iPhone or Android to make
-      /       every piece of your meal ready right on time.
-    section.product--genome#genome
-      .content
-        img.product-icon src="/images/genome-icon.png" alt="Genome logo" width="64"
-        h2.product-title Genome
-        p.product-summary Yet another node task runner.
-        p Simple library for compiling your front-end files. There's no messy configuration
-          like with Grunt and no awkward conventions like with Gulp. No plugins required to
-          get your favorite precompilers to work. Just write plain Javascript. You can handle
-          files using streams, promises or plain strings. However your precompiler works,
-          Genome can handle it.
-        p.product-links
-          a.product-link href="https://www.npmjs.com/package/genome" event-category="Genome" event-action="click" event-label="NPM"
-            img src="/images/npm.png" alt="View at npm" width="100" style="margin-top:5px"
-          a.product-link href="https://github.com/jpsilva/genome" event-category="Genome" event-action="click" event-label="GitHub"
-            img src="/images/github.png" alt="Clone from GitHub" width="100"
-    section.product--slm-autocompile#slm-autocompile
-      .content
-        h2.product-title slm-autocompile for Atom.io
-        p.product-summary Auto compile Slm files on save.
-        p
-          . Despite it's lack of documentation for advanced features,
-          a href="https://github.com/slm-lang/slm" Slm
-          |  is my favorite HTML preprocessor, better than HAML, Jade and Slim. It's what
-            I use for this website. So I thought I'd make this easy templating language
-            even easier to use.
-        p.product-links
-          a.product-link href="https://atom.io/packages/slm-autocompile" event-category="slm-autocompile" event-action="click" event-label="apm"
-            img src="https://cloud.githubusercontent.com/assets/72919/2874231/3af1db48-d3dd-11e3-98dc-6066f8bc766f.png" alt="Atom package manager page" width="150" style="margin-top:5px"
-          a.product-link href="https://github.com/jpsilva/slm-autocompile" event-category="slm-autocompile" event-action="click" event-label="GitHub"
-            img src="/images/github.png" alt="Clone from GitHub" width="100"
-    section.contact#contact
-      .content
-        h2 Contact
-        p
-          . Support, work, cool ideas:
-          a href="mailto:justin@jpsilva.com" justin@jpsilva.com
-    footer
-      .content
-        p
-          | Alt-Fight artwork &copy;2017 Isaac Durazo
-          br
-          | All other artwork, design, code, etc. &copy;2017 Justin Paul Silva
-
-    javascript:
-      var eventElements = document.querySelectorAll('[event-category]'),
-          i;
-
-      for (i = 0; i < eventElements.length; i++) {
-        eventElements[i].addEventListener('click', function(event) {
-          event.preventDefault();
-          var url = this.href;
-          ga('send', 'event', this.getAttribute('event-category'), this.getAttribute('event-action'), this.getAttribute('event-label'), {
-           'transport': 'beacon',
-           'hitCallback': function(){ document.location = url; }
-          });
-          fbq('track', 'Lead');
-        });
-      }
+  for (i = 0; i < eventElements.length; i++) {
+    eventElements[i].addEventListener('click', function(event) {
+      event.preventDefault();
+      var url = this.href;
+      ga('send', 'event', this.getAttribute('event-category'), this.getAttribute('event-action'), this.getAttribute('event-label'), {
+       'transport': 'beacon',
+       'hitCallback': function(){ document.location = url; }
+      });
+      fbq('track', 'Lead');
+    });
+  }

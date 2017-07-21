@@ -113,6 +113,13 @@ section {
   border-right-color: #eee;
   border-bottom-color: #eee;
 }
+.product--serva {
+  background: #f6f6f6;
+}
+.product--serva::before {
+  border-right-color: #f6f6f6;
+  border-bottom-color: #f6f6f6;
+}
 .product--slm-autocompile {
   background: #fff;
 }
@@ -145,11 +152,12 @@ section {
   margin: 0 auto 1em;
 }
 .product-summary {
-  text-align: center;
-}
-.product-summary {
   margin-top: 0;
+  text-align: center;
   font-weight: 300;
+}
+.repo-links {
+  margin: 5px;
 }
 .product-links {
   text-align: center;
