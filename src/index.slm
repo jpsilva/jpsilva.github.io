@@ -13,7 +13,6 @@
 
 = content('site-nav')
   a.nav-link href="#alt-fight" Alt-Fight
-  a.nav-link href="#superscribe" Superscribe
   a.nav-link href="#summer" Summer
   a.nav-link href="#genome" Dev tools
   a.nav-link href="#contact" Contact
@@ -38,32 +37,6 @@ section.product--alt-fight#alt-fight
       a.social-link href="https://www.facebook.com/Alt-Fight-Trump-Tower-Defense-170299933484984/"
         img src="/images/FB-FindUsonFacebook-online-512.png" alt="Find us on Facebook" width="100"
     img.alt-fight-screenshot src="/images/alt-fight-screenshot.jpg" alt="Alt-Fight screenshot"
-section.product--superscribe#superscribe
-  .content
-    img.product-icon src="/images/superscribe-icon.png" alt="Superscribe icon" width="64"
-    h2.product-title Superscribe
-    p.product-summary Distraction-free comic script editor for Mac and Windows.
-    p Don't worry about numbering pages and panels. Forget about switching
-      between headings, action, characters and dialog. Let
-      Superscribe handle the formatting and page/panel numbering as you type.
-      Fewer distractions means faster writing and easier editing.
-    p The superscript syntax was inspired by markdown and fountain. One hashtag creates a page heading.
-      Two hashtags create a panel heading. Superscribe inserts the page and
-      panel numbers automatically, as you type.
-    ul
-      li Automatic page, panel and dialog numbering
-      li Contextual formatting as you type
-      li Displays your dialog word count; per speech bubble, per panel and per page
-      li Page breaks before each page heading
-      li Spell check
-      li Print or export to PDF
-    p.product-links
-      a.product-link href="https://itunes.apple.com/us/app/superscribe/id1193005924?mt=12" event-category="Superscribe" event-action="click" event-label="App Store"
-        img src="/images/app-store-badge.svg" alt="Download from the macOS App Store" height="50"
-      a.product-link href="https://www.amazon.com/gp/product/B06WV8MFQZ" event-category="Superscribe" event-action="click" event-label="Amazon"
-        img src="/images/amazon-badge.svg" alt="Download from Amazon for Windows 7+" height="50"
-        small for Windows 7+
-    img.superscribe-screenshot src="/images/superscribe-screenshot.jpg" alt="Superscript screenshot"
 section.product--summer#summer
   .content
     img.product-icon src="/images/summer-icon.png" alt="Summer icon" width="64"
