@@ -12,11 +12,20 @@
   | Apps, games, tools, sites, illustration
 
 = content('site-nav')
+  a.nav-link href="#superscript" Superscript
   a.nav-link href="#alt-fight" Alt-Fight
   a.nav-link href="#summer" Summer
   a.nav-link href="#genome" Dev tools
   a.nav-link href="#contact" Contact
-
+  
+section.product--superscript#superscript
+  .content
+    img.product-icon src="/images/superscript-icon.png" alt="Superscript icon" width="64"
+    h2.product-title.product-title--superscript Superscript
+    p.product-summary The first comic book script editor for Mac and Windows
+    p Superscript is the only text editor made solely for writing scripts for comic books and graphic novels. It features automatic page and panel numbering, automatic formatting as you type, dialog word count and more. For Mac and Windows.
+    p.product-links
+      a href="http://superscriptapp.com" Sign up for the mailing list
 section.product--alt-fight#alt-fight
   .content
     img.product-icon src="/images/alt-fight-icon.png" alt="Summer icon" width="64"
@@ -50,24 +59,6 @@ section.product--summer#summer
       a.product-link href="https://play.google.com/store/apps/details?id=com.jpsilva.summer" event-category="Summer" event-action="click" event-label="Play Store"
         img src="/images/google-play-badge.png" alt="Download from the Google Play Store" height="50"
     img.summer-screenshot src="/images/summer-screenshot.jpg" alt="Summer screenshot"
-  / section.product--drawstring#drawstring
-  /   .content
-  /     img.product-icon src="/images/drawstring-icon.png" alt="Drawstring icon" width="64"
-  /     h2.product-title Drawstring
-  /     p.product-summary Create surrealist comic strips with your friends and strangers.
-  /     p Inspired by the 100 year old surrealist game, exquisite corpse,
-  /       Drawstring lets you create comic strips with your friends. Each person
-  /       draws one of the four panels, but can only see the panel that comes
-  /       right before them. Nobody sees the full picture until it's done.
-  /     p.product-links
-  /       a href="https://drawstring.somethinglabs.com" Join the play test
-  /     img.drawstring-screenshot src="/images/drawstring-screenshot.jpg" alt="Drawstring screenshot"
-  / section.product--seconds#seconds
-  /   .content
-  /     img.product-icon src="/images/seconds-logo.png" alt="Seconds logo" width="150"
-  /     p.product-summary Multiple cooking timers on your phone.
-  /     p Easily create multiple timers on your iPhone or Android to make
-  /       every piece of your meal ready right on time.
 section.product--genome#genome
   .content
     img.product-icon src="/images/genome-icon.png" alt="Genome logo" width="64"
