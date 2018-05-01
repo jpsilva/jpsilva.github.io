@@ -96,13 +96,12 @@ section
   padding-top 70px
   padding-bottom 0
   background-color #ffdf00
-  background-image linear-gradient(to bottom right, #e8c03c, #ffdf00 10%, #f5c832 20%, #f5c832 80%, #ffdf00 90%, #e8c03c)
+  background-image linear-gradient(#f5c832 20%, #f5c832 80%, #ffdf00 90%, #e8c03c)
   box-shadow none
 
   &::before
-    top 0
-    border-top-color #fff
-    border-left-color #fff
+    border-right-color #f5c832
+    border-bottom-color #f5c832
 
 .product--drawstring
   padding-bottom 0
@@ -145,6 +144,7 @@ section
 .product--superscript
   padding-bottom 0
   background #fff
+  background-image linear-gradient(#fff 100px, #e0e7eb 50%)
   box-shadow none
 
   &::before
@@ -158,6 +158,15 @@ section
 
   .product-title
     color #5f2165
+
+.product-title--superscript
+  margin-bottom 10px
+  font-family Asap, Source Sans Pro, Tahoma, Arial, sans
+
+.comixcentral-badge
+  display block
+  width 300px
+  margin 0 auto
 
 .product-icon
   display block
@@ -187,6 +196,18 @@ section
   display inline-block
   margin 1em 1em
 
+.kickstarter-link
+  display block
+  width 350px
+  margin 1em auto 0
+  border solid 2px #004650
+  border-radius 5px
+  text-align center
+  color #004650
+  
+  &:hover
+    background white
+
 .alt-fight-screenshot
   display block
   width 700px
@@ -202,6 +223,12 @@ section
 .summer-screenshot
   display block
   width 400px
+  max-width 100%
+  margin 0 auto
+
+.superscript-screenshot
+  display block
+  width 900px
   max-width 100%
   margin 0 auto
 

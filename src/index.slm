@@ -17,15 +17,27 @@
   a.nav-link href="#summer" Summer
   a.nav-link href="#genome" Dev tools
   a.nav-link href="#contact" Contact
-  
+
 section.product--superscript#superscript
   .content
     img.product-icon src="/images/superscript-icon.png" alt="Superscript icon" width="64"
     h2.product-title.product-title--superscript Superscript
     p.product-summary The first comic book script editor for Mac and Windows
-    p Superscript is the only text editor made solely for writing scripts for comic books and graphic novels. It features automatic page and panel numbering, automatic formatting as you type, dialog word count and more. For Mac and Windows.
+    p Superscript is the only text editor designed exclusively for writing scripts for comic books and graphic novels. This humble, unassuming app is loaded with features:
+    ul
+      li Automatically formats your script as you type
+      li Automatically numbers panels & pages (even multi-page splashes!)
+      li Spoken word count per dialog bubble, panel and page
+      li Customizable spell check and auto-completion
+      li Insert images and comments
+      li Online collaboration (available late 2018)
+      li Supports MacOS 10.9+ and Windows 7+
     p.product-links
-      a href="http://superscriptapp.com" Sign up for the mailing list
+      img.comixcentral-badge src="/images/featured_kickstarter_comixcentral_badge-transparent-bkg.png" alt="ComixCentral Featured Kickstarter"
+      a.product-link.kickstarter-link href="http://superscriptapp.com"
+        | Back us on
+        img src="/images/kickstarter.png" width="300"
+  img.superscript-screenshot src="/images/superscript-screenshot.png" alt="Superscript screenshot"
 section.product--alt-fight#alt-fight
   .content
     img.product-icon src="/images/alt-fight-icon.png" alt="Summer icon" width="64"
