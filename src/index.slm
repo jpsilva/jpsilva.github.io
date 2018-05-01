@@ -23,7 +23,7 @@ section.product--superscript#superscript
     img.product-icon src="/images/superscript-icon.png" alt="Superscript icon" width="64"
     h2.product-title.product-title--superscript Superscript
     p.product-summary The humble, lovable, secretly powerful comic book script editor for Mac and Windows
-    p Superscript is the only text editor designed exclusively for writing scripts for comic books and graphic novels. This humble, unassuming app is loaded with features:
+    p Superscript is the only text editor designed exclusively for writing comic book and graphic novel scripts. This simple, unassuming app is loaded with features:
     ul
       li Automatically formats your script as you type
       li Automatically numbers panels & pages (even multi-page splashes!)
