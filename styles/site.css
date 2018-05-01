@@ -90,7 +90,6 @@ section {
   padding-bottom: 0;
   background-color: #ffdf00;
   background-image: linear-gradient(#f5c832 20%, #f5c832 80%, #ffdf00 90%, #e8c03c);
-  box-shadow: none;
 }
 .product--alt-fight::before {
   border-right-color: #f5c832;

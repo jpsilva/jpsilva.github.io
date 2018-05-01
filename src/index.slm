@@ -133,7 +133,7 @@ footer
     p
       | Alt-Fight artwork &copy;2017 Isaac Durazo
       br
-      | All other artwork, design, code, etc. &copy;2017 Justin Paul Silva
+      | All other artwork, design, code, etc. &copy;2018 Justin Paul Silva
 
 javascript:
   var eventElements = document.querySelectorAll('[event-category]'),
