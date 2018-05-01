@@ -156,11 +156,6 @@ section {
   margin-bottom: 10px;
   font-family: Asap, Source Sans Pro, Tahoma, Arial, sans;
 }
-.comixcentral-badge {
-  display: block;
-  width: 300px;
-  margin: 0 auto;
-}
 .product-icon {
   display: block;
   margin: 0 auto 1em;
@@ -191,15 +186,16 @@ section {
 }
 .kickstarter-link {
   display: block;
-  width: 350px;
-  margin: 1em auto 0;
-  border: solid 2px #004650;
-  border-radius: 5px;
+  width: 360px;
+  margin: 2em auto;
+  border-radius: 10px;
+  background: #2b2727;
   text-align: center;
-  color: #004650;
+  color: #fff;
 }
 .kickstarter-link:hover {
-  background: #fff;
+  background: #5f2165;
+  color: #fff;
 }
 .alt-fight-screenshot {
   display: block;

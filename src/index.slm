@@ -22,7 +22,7 @@ section.product--superscript#superscript
   .content
     img.product-icon src="/images/superscript-icon.png" alt="Superscript icon" width="64"
     h2.product-title.product-title--superscript Superscript
-    p.product-summary The first comic book script editor for Mac and Windows
+    p.product-summary The humble, lovable, secretly powerful comic book script editor for Mac and Windows
     p Superscript is the only text editor designed exclusively for writing scripts for comic books and graphic novels. This humble, unassuming app is loaded with features:
     ul
       li Automatically formats your script as you type
@@ -33,10 +33,11 @@ section.product--superscript#superscript
       li Online collaboration (available late 2018)
       li Supports MacOS 10.9+ and Windows 7+
     p.product-links
-      img.comixcentral-badge src="/images/featured_kickstarter_comixcentral_badge-transparent-bkg.png" alt="ComixCentral Featured Kickstarter"
       a.product-link.kickstarter-link href="http://superscriptapp.com"
-        | Back us on
+        | Back us now on
         img src="/images/kickstarter.png" width="300"
+      img src="/images/charon-comics.png" width="200"
+      img src="/images/featured_kickstarter_comixcentral_badge-transparent-bkg.png" alt="ComixCentral Featured Kickstarter" width="200"
   img.superscript-screenshot src="/images/superscript-screenshot.png" alt="Superscript screenshot"
 section.product--alt-fight#alt-fight
   .content
