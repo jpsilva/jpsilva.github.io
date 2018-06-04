@@ -33,11 +33,7 @@ section.product--superscript#superscript
       li Online collaboration (available late 2018)
       li Supports MacOS 10.9+ and Windows 7+
     p.product-links
-      a.product-link.kickstarter-link href="http://superscriptapp.com"
-        | Back us now on
-        img src="/images/kickstarter.png" width="300"
-      img src="/images/charon-comics.png" width="200"
-      img src="/images/featured_kickstarter_comixcentral_badge-transparent-bkg.png" alt="ComixCentral Featured Kickstarter" width="200"
+      a.product-link href="https://www.superscript.app" Go to website
   img.superscript-screenshot src="/images/superscript-screenshot.png" alt="Superscript screenshot"
 section.product--summer#summer
   .content
